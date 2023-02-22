@@ -26,3 +26,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mdabdullahalsiddik&show_icons=true&locale=en" alt="mdabdullahalsiddik" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mdabdullahalsiddik&" alt="mdabdullahalsiddik" /></p>
+
+<img  alt="Coding" width="400" src="https://media.tenor.com/KMFQut1j8KwAAAAd/scaler-create-impact.gif">
+<h3 align="center">❤🧡💛💚🖤⌨🖱💻💻💻💻💻💻🖱⌨🖤💚💛🧡❤</h3>
