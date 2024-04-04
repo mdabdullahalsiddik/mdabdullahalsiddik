@@ -4,7 +4,7 @@
 
 <img align="right" alt="Coding" width="400" src="https://www.analyticsinsight.net/wp-content/uploads/2020/03/AI_Animated.gif">
 
-- 🌱 I’m currently learning **Machine Learning**
+- 🌱 I’m currently learning **Machine Learning & Flutter**
 
 - 📫 How to reach me **mabdullahalsiddik@gmail.com ✉✉**
 
