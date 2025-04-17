@@ -83,14 +83,4 @@
 
 ###
 
-<p align="left">Hello World!!</p>
-
-###
-
-<p align="left">Hello World!!</p>
-
-###
-
-<p align="left">Hello World!!</p>
-
-###
+<h3 align="center">💚🖤⌨🖱💻💻💻💻🖱⌨🖤💚</h3>
