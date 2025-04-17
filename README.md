@@ -1,100 +1,93 @@
-![logo](https://gist.githubusercontent.com/vininjr/d29bb07bdadb41e4b0923bc8fa748b1a/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif)
+<h1 align="left">Hey 👋 What's up?</h1>
 
-<h1 align="center">Hi 👋, I'm Md. Abdullah Al Siddik 🖤</h1>
-<h3 align="center">🖤 Software Engineer | Flutter & ML Enthusiast 🖤</h3>
+###
 
-<img align="right" alt="Coding" width="400" src="https://www.analyticsinsight.net/wp-content/uploads/2020/03/AI_Animated.gif">
+<h6 align="left">My name is Md. Abdullah Al Siddik and I'm a Flutter Developer .</h6>
 
-- 🌱 I’m currently diving into:
-  - 🤖 **Machine Learning**
-  - 📱 **Flutter**
+###
 
-- 📫 Reach me at: **mabdullahalsiddik@gmail.com**
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mdabdullahalsiddik&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=mdabdullahalsiddik&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mdabdullahalsiddik&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-- ⚡ Fun fact: I'm happy & funny 😋
+###
 
----
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
-### 🧩 Connect with me
+###
 
-<p align="left">
-  <a href="https://twitter.com/mdabdullahsid" target="blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" />
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="30" alt="android logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="30" alt="dart logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="pandas logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="30" alt="pycharm logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="30" alt="anaconda logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" height="30" alt="kaggle logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="30" alt="windows8 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="30" alt="slack logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" height="30" alt="wordpress logo"  />
+</div>
+
+###
+
+<div align="left">
+  <a href="mabdullahalsiddik@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   </a>
-  <a href="https://linkedin.com/in/md-abdullah-al-siddik" target="blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  <a href="https://www.linkedin.com/in/md-abdullah-al-siddik-sid/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
   </a>
-  <a href="https://kaggle.com/mdabdullahalsiddik" target="blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="Kaggle" height="30" width="40" />
+  <a href="https://www.facebook.com/mdabdullahalsiddik2000" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
   </a>
-  <a href="https://fb.com/mdabdullahalsiddik" target="blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" />
-  </a>
-</p>
+</div>
 
----
+###
 
-### 💻 Languages and Tools
+<br clear="both">
 
-<p align="left">
-  <!-- Data & ML -->
-  <a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="40" height="40"/></a>
-  <a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
-  <a href="https://scikit-learn.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40"/></a>
-  <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="40" height="40"/></a>
-</p>
+<img src="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/snake.svg" alt="Snake animation" />
 
-<p align="left">
-  <!-- Mobile -->
-  <a href="https://developer.android.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android" width="40" height="40"/></a>
-  <a href="https://dart.dev" target="_blank"><img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="40" height="40"/></a>
-  <a href="https://flutter.dev" target="_blank"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40" height="40"/></a>
-  <a href="https://nativescript.org/" target="_blank"><img src="https://raw.githubusercontent.com/detain/svg-logos/master/svg/nativescript.svg" alt="NativeScript" width="40" height="40"/></a>
-</p>
+###
 
----
+<p align="left">Hello World!!</p>
 
-### 📊 GitHub Stats
+###
 
-<table>
-  <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdabdullahalsiddik&layout=compact&theme=radical" width="350" /></td>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=mdabdullahalsiddik&show_icons=true&theme=radical" width="350" /></td>
-  </tr>
-</table>
+<p align="left">Hello World!!</p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mdabdullahalsiddik&theme=radical" width="600" />
-</p>
+###
 
----
+<p align="left">Hello World!!</p>
 
-### 🔁 Contribution Animations
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
-<h3 align="center">🟡 Pacman Eating Contributions 🍒</h3>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
-</p>
-
----
-
-### 🎯 Final Touch
-
-<p align="center">
-  <img width="1000" src="https://media.tenor.com/KMFQut1j8KwAAAAd/scaler-create-impact.gif" alt="Create Impact" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mdabdullahalsiddik&label=Profile%20views&color=0e75b6&style=flat" alt="mdabdullahalsiddik" />
-</p>
-
-<h3 align="center">💚🖤⌨🖱💻💻💻💻🖱⌨🖤💚</h3>
+###
