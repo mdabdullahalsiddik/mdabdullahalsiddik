@@ -70,13 +70,13 @@
 
 ---
 
-<p align="center">
- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/github-contribution-grid-snake.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/https://github.com/mdabdullahalsiddik/https://github.com/mdabdullahalsiddik/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/https://github.com/mdabdullahalsiddik/https://github.com/mdabdullahalsiddik/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/https://github.com/mdabdullahalsiddik/https://github.com/mdabdullahalsiddik/output/pacman-contribution-graph.svg">
 </picture>
-</p>
+
+
 
 ---
 
