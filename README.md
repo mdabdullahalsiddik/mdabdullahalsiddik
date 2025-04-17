@@ -1,6 +1,4 @@
 ![logo](https://gist.githubusercontent.com/vininjr/d29bb07bdadb41e4b0923bc8fa748b1a/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif)
-
-
 <h1 align="left">Hey 👋 What's up?</h1>
 
 ###
@@ -17,11 +15,9 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<br clear="both">
 
-###
-
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
@@ -63,7 +59,9 @@
 
 ###
 
-<div align="left">
+<br clear="both">
+
+<div align="center">
   <a href="mabdullahalsiddik@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   </a>
@@ -82,5 +80,6 @@
 <img src="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/snake.svg" alt="Snake animation" />
 
 ###
+
 
 <h3 align="center">💚🖤⌨🖱💻💻💻💻🖱⌨🖤💚</h3>
