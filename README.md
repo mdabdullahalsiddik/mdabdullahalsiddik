@@ -32,4 +32,9 @@
 <p><img align="center" width="350" src="https://github-readme-streak-stats.herokuapp.com/?user=mdabdullahalsiddik&" alt="mdabdullahalsiddik" /></p>
 
 <img align="center" alt="Coding" width="1000"  src="https://media.tenor.com/KMFQut1j8KwAAAAd/scaler-create-impact.gif">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/https://github.com/mdabdullahalsiddik/https://github.com/mdabdullahalsiddik/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/https://github.com/mdabdullahalsiddik/https://github.com/mdabdullahalsiddik/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/https://github.com/mdabdullahalsiddik/https://github.com/mdabdullahalsiddik/output/pacman-contribution-graph.svg">
+</picture>
 <h3 align="center">💚🖤⌨🖱💻💻💻💻🖱⌨🖤💚</h3>
