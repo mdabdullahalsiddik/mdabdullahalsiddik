@@ -76,7 +76,16 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/github-contribution-grid-snake.svg">
   <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/github-contribution-grid-snake.svg">
 </picture>
-
 </p>
+
+---
+
+<h3 align="center">🟡 Pacman Eating Contributions 🍒</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mdabdullahalsiddik/mdabdullahalsiddik/output/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
+</p>
+
+---
 
 <h3 align="center">💚🖤⌨🖱💻💻💻💻🖱⌨🖤💚</h3>
