@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://www.appslure.com/wp-content/uploads/2022/07/app-development-1.gif" 
-       alt="coding gif" width="400" height="400" style="margin-right: 10px;"/>
+       alt="coding gif" width="400" height="200" style="margin-right: 10px;"/>
   <img src="https://cdn.dribbble.com/users/1233499/screenshots/3852878/mobile-development2-2.gif" 
        alt="coding gif" width="400" height="400"/>
 </p>
