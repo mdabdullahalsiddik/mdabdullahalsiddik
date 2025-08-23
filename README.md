@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-  <img src="https://www.appslure.com/wp-content/uploads/2022/07/app-development-1.gif" alt="coding gif" width="400"/>
-  <img src="https://cdn.dribbble.com/users/1233499/screenshots/3852878/mobile-development2-2.gif" alt="coding gif" width="400"/>
+  <img src="https://www.appslure.com/wp-content/uploads/2022/07/app-development-1.gif" alt="coding gif" width="400" higth="400"/>
+  <img src="https://cdn.dribbble.com/users/1233499/screenshots/3852878/mobile-development2-2.gif" alt="coding gif" width="400" higth="400"/>
 </p>
 <h1 align="center">Hey 👋, I'm Md. Abdullah Al Siddik</h1>
 <h3 align="center">🚀 Flutter Developer | Mobile & Web Enthusiast | Tech Explorer</h3>
