@@ -3,6 +3,9 @@
   <img src="https://gist.githubusercontent.com/vininjr/d29bb07bdadb41e4b0923bc8fa748b1a/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" alt="coding gif" width="800"/>
 </p>
 
+<p align="center">
+  <img src="https://www.appslure.com/wp-content/uploads/2022/07/app-development-1.gif" alt="coding gif" width="800"/>
+</p>
 <h1 align="center">Hey 👋, I'm Md. Abdullah Al Siddik</h1>
 <h3 align="center">🚀 Flutter Developer | Mobile & Web Enthusiast | Tech Explorer</h3>
 
