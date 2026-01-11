@@ -5,9 +5,9 @@
 
 <p align="center">
   <img src="https://www.appslure.com/wp-content/uploads/2022/07/app-development-1.gif" 
-       alt="coding gif" width="400" height="300" style="margin-right: 10px;"/>
+       alt="app development" width="400" height="300" style="margin-right: 10px;"/>
   <img src="https://cdn.dribbble.com/users/1233499/screenshots/3852878/mobile-development2-2.gif" 
-       alt="coding gif" width="400" height="300"/>
+       alt="mobile development" width="400" height="300"/>
 </p>
 
 <h1 align="center">Hey 👋, I'm Md. Abdullah Al Siddik</h1>
@@ -20,6 +20,23 @@
 - 🔥 Skilled in **Dart, Firebase, Python & AI tools**  
 - 🎯 Focused on creating smooth, scalable & modern applications  
 - 🌍 Open to collaborations and exciting projects  
+
+---
+
+### 🏆 My Projects
+<p align="center">
+  <a href="https://github.com/mdabdullahalsiddik/project1">
+    <img src="https://via.placeholder.com/200x150?text=Project+1" alt="Project 1"/>
+  </a>
+  <a href="https://github.com/mdabdullahalsiddik/project2">
+    <img src="https://via.placeholder.com/200x150?text=Project+2" alt="Project 2"/>
+  </a>
+  <a href="https://github.com/mdabdullahalsiddik/project3">
+    <img src="https://via.placeholder.com/200x150?text=Project+3" alt="Project 3"/>
+  </a>
+</p>
+
+> Replace the placeholder images with **screenshots of your real projects**. You can link to **live demos** if hosted online.
 
 ---
 
@@ -68,4 +85,4 @@
 
 ---
 
-<h3 align="center">💚🖤⌨️🖱️💻 Always Learning | Always Building 💻🖱️⌨️🖤💚</h3>
+<h3 align="center">💚🖤⌨️🖱️💻 Always Learning | Always Building 💻🖱️⌨️🖤💚</h3> 
