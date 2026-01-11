@@ -21,25 +21,6 @@
 - 🎯 Focused on creating smooth, scalable & modern applications  
 - 🌍 Open to collaborations and exciting projects  
 
----
-
-### 🏆 My Projects
-<p align="center">
-  <a href="https://github.com/mdabdullahalsiddik/project1">
-    <img src="https://via.placeholder.com/200x150?text=Project+1" alt="Project 1"/>
-  </a>
-  <a href="https://github.com/mdabdullahalsiddik/project2">
-    <img src="https://via.placeholder.com/200x150?text=Project+2" alt="Project 2"/>
-  </a>
-  <a href="https://github.com/mdabdullahalsiddik/project3">
-    <img src="https://via.placeholder.com/200x150?text=Project+3" alt="Project 3"/>
-  </a>
-</p>
-
-> Replace the placeholder images with **screenshots of your real projects**. You can link to **live demos** if hosted online.
-
----
-
 ### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=mdabdullahalsiddik&show_icons=true&theme=tokyonight&count_private=true" height="160"/>
