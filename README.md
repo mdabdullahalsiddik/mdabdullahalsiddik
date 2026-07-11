@@ -1,5 +1,3 @@
-
-
 <img src="siddik_hero_banner.svg" width="100%" alt="Md. Abdullah Al Siddik - Flutter Developer"/>
 
 <br/>
