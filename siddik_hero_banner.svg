@@ -327,18 +327,33 @@
         <circle cx="0" cy="0" r="1.5" fill="#06B6D4"/>
       </g>
 
-      <text x="1325" y="512" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="17" font-weight="700" fill="#E5E7EB" letter-spacing="1">08:39:48 <tspan font-size="12" fill="#06B6D4">PM</tspan></text>
-      <text x="1325" y="532" text-anchor="middle" font-family="'Segoe UI','Inter',sans-serif" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="0.8">Saturday, 11 JUL 2026</text>
+      <text x="1325" y="512" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="17" font-weight="700" fill="#E5E7EB" letter-spacing="1">01:10:27 <tspan font-size="12" fill="#06B6D4">PM</tspan></text>
+      <text x="1325" y="532" text-anchor="middle" font-family="'Segoe UI','Inter',sans-serif" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="0.8">Saturday, 11 Jul 2026</text>
     </g>
   </g>
 
-  <g>
-    <rect x="900" y="500" width="130" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
+  <g font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" font-weight="600" fill="#E5E7EB">
+    <rect x="900" y="500" width="150" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
     <circle cx="913" cy="512" r="3" fill="#06B6D4"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
-    <rect x="900" y="528" width="130" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
+    <text x="924" y="516">🌤️ Dhaka Weather</text>
+
+    <rect x="900" y="528" width="150" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
     <circle cx="913" cy="540" r="3" fill="#3B82F6"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
-    <rect x="900" y="556" width="130" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
+    <text x="924" y="544">📍 Dhaka, Bangladesh</text>
+
+    <rect x="900" y="556" width="150" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
     <circle cx="913" cy="568" r="3" fill="#8B5CF6"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <text x="924" y="572" font-size="11">🟢 Open to Projects</text>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="7.8s" repeatCount="indefinite"/>
+    <rect x="900" y="592" width="270" height="120" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+    <clipPath id="mapClip"><rect x="907" y="599" width="256" height="86" rx="9"/></clipPath>
+    <g clip-path="url(#mapClip)">
+      <image x="907" y="599" width="256" height="86" href="https://staticmap.openstreetmap.de/staticmap.php?center=23.8103,90.4125&amp;zoom=11&amp;size=256x86&amp;markers=23.8103,90.4125,red-pushpin" preserveAspectRatio="xMidYMid slice"/>
+    </g>
+    <text x="1035" y="702" text-anchor="middle" font-family="'Segoe UI','Inter',sans-serif" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="0.5">📍 DHAKA, BANGLADESH</text>
   </g>
 
   <g fill="none" stroke="url(#lineGrad)" stroke-width="2">
