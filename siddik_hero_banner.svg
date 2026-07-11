@@ -16,6 +16,11 @@
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.015"/>
     </linearGradient>
 
+    <linearGradient id="statFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.10"/>
+    </linearGradient>
+
     <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#3B82F6" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.55"/>
@@ -72,6 +77,27 @@
       <path d="M0 0H42V42" fill="none" stroke="#9CA3AF" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
 
+    <filter id="clockGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="clockFace" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#1C2333"/>
+      <stop offset="1" stop-color="#0A0E15"/>
+    </radialGradient>
+
+    <linearGradient id="shimmerSweep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="0.52" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
     <clipPath id="editorClip"><rect x="880" y="90" width="340" height="215" rx="14"/></clipPath>
     <clipPath id="browserClip"><rect x="1240" y="100" width="300" height="180" rx="14"/></clipPath>
     <clipPath id="termClip"><rect x="890" y="350" width="280" height="150" rx="14"/></clipPath>
@@ -112,6 +138,18 @@
 
     <text x="70" y="218" font-size="15" fill="#9CA3AF">Building scalable POS, e-commerce, logistics, and depot management apps</text>
     <text x="70" y="240" font-size="15" fill="#9CA3AF">with clean architecture, GetX state management, and offline-first sync.</text>
+
+    <g transform="translate(605,110)">
+      <rect x="0" y="0" width="188" height="30" rx="15" fill="#10B98122" stroke="#10B981" stroke-opacity="0.55" stroke-width="1.2"/>
+      <circle cx="17" cy="15" r="5" fill="#10B981">
+        <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="17" cy="15" r="8" fill="none" stroke="#10B981" stroke-width="1">
+        <animate attributeName="r" values="5;11;5" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="20" font-size="13" font-weight="700" fill="#34D399" font-family="'Segoe UI','Inter',sans-serif">Available for Freelance</text>
+    </g>
 
     <g font-size="13" fill="#9CA3AF" font-family="'Segoe UI','Inter',-apple-system,sans-serif">
       <g transform="translate(70,257)" stroke="#06B6D4" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round">
@@ -195,13 +233,15 @@
     </g>
 
     <g>
-      <rect x="70" y="490" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)" filter="url(#dropShadow)"/>
-      <text x="165" y="532" text-anchor="middle" font-size="30" font-weight="800" fill="url(#accentText)">1+</text>
-      <text x="165" y="557" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Years Building Production Apps</text>
+      <rect x="70" y="490" width="190" height="86" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
+      <rect x="70" y="490" width="190" height="43" rx="18" fill="url(#glassShine)"/>
+      <text x="165" y="534" text-anchor="middle" font-size="32" font-weight="800" fill="url(#accentText)">2+</text>
+      <text x="165" y="559" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Years Building Production Apps</text>
 
-      <rect x="280" y="490" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)" filter="url(#dropShadow)"/>
-      <text x="375" y="532" text-anchor="middle" font-size="30" font-weight="800" fill="url(#accentText)">10+</text>
-      <text x="375" y="557" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Production Apps</text>
+      <rect x="280" y="490" width="190" height="86" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
+      <rect x="280" y="490" width="190" height="43" rx="18" fill="url(#glassShine)"/>
+      <text x="375" y="534" text-anchor="middle" font-size="32" font-weight="800" fill="url(#accentText)">20+</text>
+      <text x="375" y="559" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Production Apps</text>
     </g>
   </g>
 
@@ -339,7 +379,16 @@
       <circle cx="1229" cy="359" r="4" fill="#27C93F"/>
       <text x="1325" y="363" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" font-weight="600" fill="#9CA3AF" letter-spacing="0.5">DHAKA (GMT+6)</text>
 
-      <circle cx="1325" cy="432" r="52" fill="#0D1117" stroke="url(#borderGrad)" stroke-width="2"/>
+      <g transform="translate(1400,353)">
+        <rect x="0" y="-11" width="46" height="18" rx="9" fill="#EF444422" stroke="#EF4444" stroke-opacity="0.6" stroke-width="1"/>
+        <circle cx="10" cy="-2" r="3.5" fill="#EF4444">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
+        </circle>
+        <text x="22" y="1" font-size="9.5" font-weight="700" fill="#F87171" font-family="'Segoe UI','Inter',sans-serif">LIVE</text>
+      </g>
+
+      <circle cx="1325" cy="432" r="54" fill="url(#clockFace)" stroke="url(#borderGrad)" stroke-width="2" filter="url(#clockGlow)"/>
+      <circle cx="1325" cy="432" r="52" fill="none" stroke="url(#ringGrad)" stroke-width="1" opacity="0.35"/>
 
       <g stroke="#4B5563" stroke-width="2" stroke-linecap="round">
         <line x1="1325" y1="380" x2="1325" y2="387"/>
@@ -372,7 +421,7 @@
         <circle cx="0" cy="0" r="1.5" fill="#06B6D4"/>
       </g>
 
-      <text x="1325" y="512" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="17" font-weight="700" fill="#E5E7EB" letter-spacing="1">01:10:27 <tspan font-size="12" fill="#06B6D4">PM</tspan></text>
+      <text x="1325" y="512" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="17" font-weight="700" fill="#E5E7EB" letter-spacing="1">01<tspan fill="#06B6D4"><animate attributeName="opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/>:</tspan>10<tspan fill="#06B6D4"><animate attributeName="opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/>:</tspan>27 <tspan font-size="12" fill="#06B6D4">PM</tspan></text>
       <text x="1325" y="532" text-anchor="middle" font-family="'Segoe UI','Inter',sans-serif" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="0.8">Saturday, 11 Jul 2026</text>
     </g>
   </g>
@@ -437,7 +486,7 @@
     <g transform="scale(0.11)">
       <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="#01579B"/>
       <animateMotion path="M1560,600 C1520,470 1590,350 1540,220 C1510,140 1570,60 1530,-30" dur="17s" repeatCount="indefinite" begin="5s"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite" additive="sum"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite" begin="5s" additive="sum"/>
       <animate attributeName="opacity" values="0;0.45;0.45;0" dur="17s" begin="5s" repeatCount="indefinite"/>
     </g>
   </g>
@@ -490,4 +539,12 @@
     <circle cx="1400" cy="580" r="4"/>
   </g>
   </g>
+
+  <g opacity="1">
+    <rect x="-400" y="0" width="300" height="820" fill="url(#shimmerSweep)" transform="skewX(-20)">
+      <animate attributeName="x" values="-400;1900" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="0" y="0" width="1600" height="820" rx="0" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.5"/>
 </svg>
