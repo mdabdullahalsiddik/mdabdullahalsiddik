@@ -61,6 +61,11 @@
       <stop offset="1" stop-color="#8B5CF6"/>
     </linearGradient>
 
+    <linearGradient id="flutterGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#54C5F8"/>
+      <stop offset="1" stop-color="#01579B"/>
+    </linearGradient>
+
     <clipPath id="avatarClip2"><circle cx="0" cy="0" r="40"/></clipPath>
 
     <pattern id="gridPattern" width="42" height="42" patternUnits="userSpaceOnUse">
@@ -170,18 +175,33 @@
       <rect x="70" y="404" width="100" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
       <text x="120" y="426" text-anchor="middle">VS Code</text>
 
-      <rect x="180" y="404" width="100" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="230" y="426" text-anchor="middle">Windows</text>
+      <rect x="180" y="404" width="140" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+      <text x="250" y="426" text-anchor="middle">Android Studio</text>
+
+      <rect x="330" y="404" width="65" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+      <text x="362" y="426" text-anchor="middle">iOS</text>
+
+      <rect x="405" y="404" width="70" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+      <text x="440" y="426" text-anchor="middle">Web</text>
+
+      <rect x="485" y="404" width="105" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+      <text x="537" y="426" text-anchor="middle">Desktop</text>
+
+      <rect x="70" y="448" width="120" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+      <text x="130" y="470" text-anchor="middle">WebSocket</text>
+
+      <rect x="200" y="448" width="180" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+      <text x="290" y="470" text-anchor="middle">Push Notification</text>
     </g>
 
     <g>
-      <rect x="70" y="478" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)" filter="url(#dropShadow)"/>
-      <text x="165" y="520" text-anchor="middle" font-size="30" font-weight="800" fill="url(#accentText)">1+</text>
-      <text x="165" y="545" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Years Building Production Apps</text>
+      <rect x="70" y="490" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)" filter="url(#dropShadow)"/>
+      <text x="165" y="532" text-anchor="middle" font-size="30" font-weight="800" fill="url(#accentText)">1+</text>
+      <text x="165" y="557" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Years Building Production Apps</text>
 
-      <rect x="280" y="478" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)" filter="url(#dropShadow)"/>
-      <text x="375" y="520" text-anchor="middle" font-size="30" font-weight="800" fill="url(#accentText)">10+</text>
-      <text x="375" y="545" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Production Apps</text>
+      <rect x="280" y="490" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)" filter="url(#dropShadow)"/>
+      <text x="375" y="532" text-anchor="middle" font-size="30" font-weight="800" fill="url(#accentText)">10+</text>
+      <text x="375" y="557" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Production Apps</text>
     </g>
   </g>
 
@@ -220,8 +240,8 @@
     <circle r="50" fill="none" stroke="url(#borderGrad)" stroke-width="1.3" opacity="0.4"/>
     <g>
       <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.2s" repeatCount="indefinite"/>
-      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="url(#accentText)"/>
-      <polygon points="8,18 34,18 -10,44 -34,20" fill="#0D1117" opacity="0.4"/>
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="url(#flutterGrad)"/>
+      <polygon points="8,18 34,18 -10,44 -34,20" fill="#01579B" opacity="0.85"/>
     </g>
     <circle r="6" fill="#06B6D4"/>
   </g>
@@ -335,7 +355,6 @@
         <line x1="1325" y1="380" x2="1325" y2="387" transform="rotate(300, 1325, 432)"/>
         <line x1="1325" y1="380" x2="1325" y2="387" transform="rotate(330, 1325, 432)"/>
       </g>
-
       <g transform="translate(1325,432)">
         <g>
           <animateTransform attributeName="transform" type="rotate" from="114.5" to="474.5" dur="43200s" repeatCount="indefinite"/>
@@ -358,19 +377,6 @@
     </g>
   </g>
 
-  <g font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" font-weight="600" fill="#E5E7EB">
-    <rect x="900" y="500" width="150" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
-    <circle cx="913" cy="512" r="3" fill="#06B6D4"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
-    <text x="924" y="516">🌤️ Dhaka Weather</text>
-
-    <rect x="900" y="528" width="150" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
-    <circle cx="913" cy="540" r="3" fill="#3B82F6"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
-    <text x="924" y="544">📍 Dhaka, Bangladesh</text>
-
-    <rect x="900" y="556" width="150" height="24" rx="6" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
-    <circle cx="913" cy="568" r="3" fill="#8B5CF6"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
-    <text x="924" y="572" font-size="11">🟢 Open to Projects</text>
-  </g>
 
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="7.8s" repeatCount="indefinite"/>
@@ -401,11 +407,38 @@
   <g opacity="0.55">
     <g transform="translate(1500,130) scale(0.32)">
       <animateTransform attributeName="transform" type="rotate" additive="sum" from="0 0 0" to="360 0 0" dur="40s" repeatCount="indefinite"/>
-      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="url(#accentText)" opacity="0.5"/>
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="url(#flutterGrad)" opacity="0.5"/>
     </g>
     <g transform="translate(150,470) scale(0.24)">
       <animateTransform attributeName="transform" type="rotate" additive="sum" from="360 0 0" to="0 0 0" dur="34s" repeatCount="indefinite"/>
-      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="#06B6D4" opacity="0.4"/>
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="#29B6F6" opacity="0.4"/>
+    </g>
+  </g>
+
+  <g opacity="0.5">
+    <g transform="scale(0.2)">
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="#54C5F8"/>
+      <animateMotion path="M120,650 C160,500 90,350 140,200 C170,110 120,40 150,-40" dur="16s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite" additive="sum"/>
+      <animate attributeName="opacity" values="0;0.6;0.6;0" dur="16s" repeatCount="indefinite"/>
+    </g>
+    <g transform="scale(0.16)">
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="#0288D1"/>
+      <animateMotion path="M1300,720 C1340,560 1420,480 1380,320 C1350,220 1420,120 1390,20" dur="19s" repeatCount="indefinite" begin="3s"/>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite" additive="sum"/>
+      <animate attributeName="opacity" values="0;0.5;0.5;0" dur="19s" begin="3s" repeatCount="indefinite"/>
+    </g>
+    <g transform="scale(0.13)">
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="#42A5F5"/>
+      <animateMotion path="M760,730 C800,600 700,470 760,340 C800,250 730,150 770,30" dur="14s" repeatCount="indefinite" begin="1.5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="6s" repeatCount="indefinite" additive="sum"/>
+      <animate attributeName="opacity" values="0;0.55;0.55;0" dur="14s" begin="1.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="scale(0.11)">
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="#01579B"/>
+      <animateMotion path="M1560,600 C1520,470 1590,350 1540,220 C1510,140 1570,60 1530,-30" dur="17s" repeatCount="indefinite" begin="5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite" additive="sum"/>
+      <animate attributeName="opacity" values="0;0.45;0.45;0" dur="17s" begin="5s" repeatCount="indefinite"/>
     </g>
   </g>
 
@@ -414,6 +447,29 @@
     <text x="60" y="560" font-size="12" fill="#8B5CF6"><animate attributeName="opacity" values="0;0.2;0" dur="11s" begin="2s" repeatCount="indefinite"/>setState(() {});</text>
     <text x="1440" y="560" font-size="12" fill="#06B6D4"><animate attributeName="opacity" values="0;0.2;0" dur="10s" begin="4s" repeatCount="indefinite"/>Obx(() =&gt; ...)</text>
     <text x="120" y="60" font-size="12" fill="#3B82F6"><animate attributeName="opacity" values="0;0.2;0" dur="8s" begin="1s" repeatCount="indefinite"/>class Controller</text>
+  </g>
+
+  <g font-family="'SFMono-Regular',Consolas,monospace" font-size="11" opacity="0">
+    <text x="80" y="700" fill="#06B6D4">
+      <animate attributeName="opacity" values="0;0.24;0" dur="10s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="700;60" dur="10s" begin="0.5s" repeatCount="indefinite"/>
+      final controller = Get.put(HomeController());
+    </text>
+    <text x="1200" y="700" fill="#8B5CF6">
+      <animate attributeName="opacity" values="0;0.22;0" dur="12s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="700;60" dur="12s" begin="3s" repeatCount="indefinite"/>
+      RxList&lt;Item&gt; items = &lt;Item&gt;[].obs;
+    </text>
+    <text x="650" y="700" fill="#3B82F6">
+      <animate attributeName="opacity" values="0;0.2;0" dur="9s" begin="6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="700;60" dur="9s" begin="6s" repeatCount="indefinite"/>
+      Navigator.push(context, route);
+    </text>
+    <text x="1550" y="700" fill="#06B6D4">
+      <animate attributeName="opacity" values="0;0.22;0" dur="11s" begin="8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="700;60" dur="11s" begin="8s" repeatCount="indefinite"/>
+      await SQLite.sync();
+    </text>
   </g>
 
 
