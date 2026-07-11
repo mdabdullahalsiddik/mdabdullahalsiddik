@@ -12,13 +12,18 @@
     </linearGradient>
 
     <linearGradient id="panelFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.055"/>
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.06"/>
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.015"/>
     </linearGradient>
 
     <linearGradient id="statFill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.14"/>
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.16"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.10"/>
+    </linearGradient>
+
+    <linearGradient id="iconFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
     </linearGradient>
 
     <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
@@ -27,32 +32,42 @@
     </linearGradient>
 
     <radialGradient id="bgGlowBlue" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.28"/>
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.30"/>
       <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="bgGlowPurple" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.26"/>
       <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="bgGlowCyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#06B6D4" stop-opacity="0.2"/>
+      <stop offset="0" stop-color="#06B6D4" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
     </radialGradient>
 
     <filter id="blurLg" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="50"/>
-    </filter>
-    <filter id="blurSm" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="3"/>
+      <feGaussianBlur stdDeviation="55"/>
     </filter>
 
     <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
     </filter>
 
-    <filter id="avatarGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="10"/>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
+
+    <filter id="clockGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="clockFace" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#1C2333"/>
+      <stop offset="1" stop-color="#0A0E15"/>
+    </radialGradient>
 
     <linearGradient id="glassShine" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/>
@@ -71,25 +86,6 @@
       <stop offset="1" stop-color="#01579B"/>
     </linearGradient>
 
-    <clipPath id="avatarClip2"><circle cx="0" cy="0" r="40"/></clipPath>
-
-    <pattern id="gridPattern" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M0 0H42V42" fill="none" stroke="#9CA3AF" stroke-opacity="0.06" stroke-width="1"/>
-    </pattern>
-
-    <filter id="clockGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <radialGradient id="clockFace" cx="35%" cy="30%" r="80%">
-      <stop offset="0" stop-color="#1C2333"/>
-      <stop offset="1" stop-color="#0A0E15"/>
-    </radialGradient>
-
     <linearGradient id="shimmerSweep" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0"/>
@@ -98,25 +94,30 @@
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
 
-    <clipPath id="editorClip"><rect x="880" y="90" width="340" height="215" rx="14"/></clipPath>
-    <clipPath id="browserClip"><rect x="1240" y="100" width="300" height="180" rx="14"/></clipPath>
-    <clipPath id="termClip"><rect x="890" y="350" width="280" height="150" rx="14"/></clipPath>
+    <pattern id="gridPattern" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M0 0H42V42" fill="none" stroke="#9CA3AF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="editorClip"><rect x="880" y="90" width="340" height="215" rx="18"/></clipPath>
+    <clipPath id="browserClip"><rect x="1240" y="100" width="300" height="180" rx="18"/></clipPath>
+    <clipPath id="termClip"><rect x="890" y="350" width="280" height="150" rx="18"/></clipPath>
+    <clipPath id="flutterCodeClip2"><rect x="900" y="592" width="270" height="120" rx="18"/></clipPath>
   </defs>
 
-  <rect width="1600" height="820" fill="#0D1117"/>
+  <rect width="1600" height="820" fill="#0B0F17"/>
   <rect width="1600" height="820" fill="url(#gridPattern)"/>
 
   <g transform="translate(0,90)">
-  <circle cx="1260" cy="150" r="220" fill="url(#bgGlowBlue)" filter="url(#blurLg)">
+  <circle cx="1260" cy="150" r="230" fill="url(#bgGlowBlue)" filter="url(#blurLg)">
     <animate attributeName="opacity" values="0.7;1;0.7" dur="8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1420" cy="460" r="260" fill="url(#bgGlowPurple)" filter="url(#blurLg)">
+  <circle cx="1420" cy="460" r="270" fill="url(#bgGlowPurple)" filter="url(#blurLg)">
     <animate attributeName="opacity" values="0.8;1;0.8" dur="9s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="960" cy="470" r="190" fill="url(#bgGlowCyan)" filter="url(#blurLg)">
+  <circle cx="960" cy="470" r="200" fill="url(#bgGlowCyan)" filter="url(#blurLg)">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="10s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="160" cy="500" r="150" fill="url(#bgGlowBlue)" filter="url(#blurLg)" opacity="0.35"/>
+  <circle cx="160" cy="500" r="160" fill="url(#bgGlowBlue)" filter="url(#blurLg)" opacity="0.3"/>
 
   <g>
     <circle cx="150" cy="110" r="2" fill="#3B82F6" opacity="0.6"><animate attributeName="cy" values="110;85;110" dur="6s" repeatCount="indefinite"/></circle>
@@ -132,119 +133,149 @@
   <rect x="1500" y="480" width="30" height="30" fill="none" stroke="#06B6D4" stroke-opacity="0.2" stroke-width="1" transform="rotate(20 1515 495)"/>
   <circle cx="840" cy="380" r="4" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1"/>
 
-  <g font-family="'Segoe UI','Inter',-apple-system,sans-serif" transform="translate(-21,-42) scale(1.3)">
-    <text x="68" y="150" font-size="50" font-weight="800" letter-spacing="-1.5" fill="url(#accentText)">Md. Abdullah Al Siddik</text>
-    <text x="70" y="184" font-size="20" font-weight="600" fill="url(#accentText)">Flutter &amp; Dart Developer (Mobile &amp; Desktop)</text>
+  <!-- ============ HEADER / LEFT COLUMN ============ -->
+  <g font-family="'Segoe UI','Inter',-apple-system,sans-serif">
+    <text x="70" y="72" font-size="58" font-weight="800" letter-spacing="-1.6" fill="url(#accentText)">Md. Abdullah Al Siddik</text>
+    <text x="72" y="108" font-size="23" font-weight="600" fill="#CBD5E1">Flutter &amp; Dart Developer <tspan fill="url(#accentText)">(Mobile &amp; Desktop)</tspan></text>
 
-    <text x="70" y="218" font-size="15" fill="#9CA3AF">Building scalable POS, e-commerce, logistics, and depot management apps</text>
-    <text x="70" y="240" font-size="15" fill="#9CA3AF">with clean architecture, GetX state management, and offline-first sync.</text>
-
-    <g transform="translate(605,110)">
-      <rect x="0" y="0" width="188" height="30" rx="15" fill="#10B98122" stroke="#10B981" stroke-opacity="0.55" stroke-width="1.2"/>
-      <circle cx="17" cy="15" r="5" fill="#10B981">
+    <g transform="translate(72,124)">
+      <rect x="0" y="0" width="196" height="32" rx="16" fill="#10B98120" stroke="#10B981" stroke-opacity="0.6" stroke-width="1.2"/>
+      <circle cx="18" cy="16" r="5" fill="#10B981">
         <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="17" cy="15" r="8" fill="none" stroke="#10B981" stroke-width="1">
+      <circle cx="18" cy="16" r="8" fill="none" stroke="#10B981" stroke-width="1">
         <animate attributeName="r" values="5;11;5" dur="1.8s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite"/>
       </circle>
-      <text x="32" y="20" font-size="13" font-weight="700" fill="#34D399" font-family="'Segoe UI','Inter',sans-serif">Available for Freelance</text>
+      <text x="34" y="21" font-size="13.5" font-weight="700" fill="#34D399">Available for Freelance</text>
     </g>
 
-    <g font-size="13" fill="#9CA3AF" font-family="'Segoe UI','Inter',-apple-system,sans-serif">
-      <g transform="translate(70,257)" stroke="#06B6D4" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <text x="72" y="192" font-size="16" fill="#9CA3AF">Building scalable POS, e-commerce, logistics, and depot management apps</text>
+    <text x="72" y="215" font-size="16" fill="#9CA3AF">with clean architecture, GetX state management, and offline-first sync.</text>
+
+    <g font-size="13.5" fill="#B0B8C4" font-family="'Segoe UI','Inter',-apple-system,sans-serif">
+      <g transform="translate(72,246)" stroke="#06B6D4" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round">
         <rect x="0" y="0" width="17" height="13" rx="2"/>
         <path d="M1,2 L8.5,8.5 L16,2"/>
       </g>
-      <text x="94" y="268">mabdullahalsiddik@gmail.com</text>
+      <text x="96" y="257">mabdullahalsiddik@gmail.com</text>
 
-      <g transform="translate(360,257)" stroke="#8B5CF6" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <g transform="translate(362,246)" stroke="#8B5CF6" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round">
         <path d="M1,1 H8 L9,4 L6.5,5.5 C7.3,7.3 8.7,8.7 10.5,9.5 L12,7 L15,8 V11 C15,11.6 14.6,12 14,12 C6.8,12 1,6.2 1,1 Z"/>
       </g>
-      <text x="378" y="268">facebook.com/mdabdullahalsiddik2000</text>
+      <text x="380" y="257">facebook.com/mdabdullahalsiddik2000</text>
 
-      <g transform="translate(70,279)" stroke="#3B82F6" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <g transform="translate(72,270)" stroke="#3B82F6" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
         <path d="M6,2.5 L7.5,1 C8.6,-0.1 10.4,-0.1 11.5,1 C12.6,2.1 12.6,3.9 11.5,5 L10,6.5"/>
         <path d="M8,9.5 L6.5,11 C5.4,12.1 3.6,12.1 2.5,11 C1.4,9.9 1.4,8.1 2.5,7 L4,5.5"/>
       </g>
-      <text x="94" y="290">linkedin.com/in/md-abdullah-al-siddik-sid</text>
+      <text x="96" y="281">linkedin.com/in/md-abdullah-al-siddik-sid</text>
 
-      <g transform="translate(430,279)" stroke="#06B6D4" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <g transform="translate(432,270)" stroke="#06B6D4" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
         <path d="M4.5,1 L0.5,6 L4.5,11"/>
         <path d="M8,1 L12,6 L8,11"/>
       </g>
-      <text x="452" y="290">github.com/mdabdullahalsiddik</text>
+      <text x="454" y="281">github.com/mdabdullahalsiddik</text>
     </g>
 
-    <g font-size="12.5" font-weight="600" fill="#E5E7EB">
-      <rect x="70" y="316" width="90" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="115" y="338" text-anchor="middle">Flutter</text>
+    <!-- SKILL CHIPS with accent dots -->
+    <g font-size="12.5" font-weight="600" fill="#E5E7EB" font-family="'Segoe UI','Inter',-apple-system,sans-serif">
+      <!-- row 1 -->
+      <g>
+        <rect x="72" y="304" width="98" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="90" cy="321" r="3.5" fill="#3B82F6"/><text x="101" y="326">Flutter</text>
 
-      <rect x="170" y="316" width="75" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="207" y="338" text-anchor="middle">Dart</text>
+        <rect x="180" y="304" width="82" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="198" cy="321" r="3.5" fill="#3B82F6"/><text x="209" y="326">Dart</text>
 
-      <rect x="255" y="316" width="75" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="292" y="338" text-anchor="middle">GetX</text>
+        <rect x="272" y="304" width="82" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="290" cy="321" r="3.5" fill="#3B82F6"/><text x="301" y="326">GetX</text>
 
-      <rect x="340" y="316" width="110" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="395" y="338" text-anchor="middle">Firebase</text>
+        <rect x="364" y="304" width="118" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="382" cy="321" r="3.5" fill="#06B6D4"/><text x="393" y="326">Firebase</text>
 
-      <rect x="460" y="316" width="90" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="505" y="338" text-anchor="middle">SQLite</text>
+        <rect x="492" y="304" width="98" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="510" cy="321" r="3.5" fill="#06B6D4"/><text x="521" y="326">SQLite</text>
+      </g>
 
-      <rect x="560" y="316" width="110" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="615" y="338" text-anchor="middle">Android</text>
+      <!-- row 2 -->
+      <g>
+        <rect x="72" y="348" width="118" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="90" cy="365" r="3.5" fill="#06B6D4"/><text x="101" y="370">Android</text>
 
-      <rect x="70" y="360" width="110" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="125" y="382" text-anchor="middle">REST API</text>
+        <rect x="200" y="348" width="118" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="218" cy="365" r="3.5" fill="#8B5CF6"/><text x="229" y="370">REST API</text>
 
-      <rect x="190" y="360" width="65" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="222" y="382" text-anchor="middle">Git</text>
+        <rect x="328" y="348" width="72" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="346" cy="365" r="3.5" fill="#8B5CF6"/><text x="357" y="370">Git</text>
 
-      <rect x="265" y="360" width="95" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="312" y="382" text-anchor="middle">GitHub</text>
+        <rect x="410" y="348" width="102" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="428" cy="365" r="3.5" fill="#8B5CF6"/><text x="439" y="370">GitHub</text>
 
-      <rect x="370" y="360" width="100" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="420" y="382" text-anchor="middle">Python</text>
+        <rect x="522" y="348" width="106" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="540" cy="365" r="3.5" fill="#3B82F6"/><text x="551" y="370">Python</text>
+      </g>
 
-      <rect x="480" y="360" width="90" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="525" y="382" text-anchor="middle">Figma</text>
+      <!-- row 3 -->
+      <g>
+        <rect x="72" y="392" width="96" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="90" cy="409" r="3.5" fill="#3B82F6"/><text x="101" y="414">Figma</text>
 
-      <rect x="70" y="404" width="100" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="120" y="426" text-anchor="middle">VS Code</text>
+        <rect x="178" y="392" width="108" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="196" cy="409" r="3.5" fill="#06B6D4"/><text x="207" y="414">VS Code</text>
 
-      <rect x="180" y="404" width="140" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="250" y="426" text-anchor="middle">Android Studio</text>
+        <rect x="296" y="392" width="150" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="314" cy="409" r="3.5" fill="#06B6D4"/><text x="325" y="414">Android Studio</text>
 
-      <rect x="330" y="404" width="65" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="362" y="426" text-anchor="middle">iOS</text>
+        <rect x="456" y="392" width="70" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="474" cy="409" r="3.5" fill="#8B5CF6"/><text x="485" y="414">iOS</text>
 
-      <rect x="405" y="404" width="70" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="440" y="426" text-anchor="middle">Web</text>
+        <rect x="536" y="392" width="76" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="554" cy="409" r="3.5" fill="#8B5CF6"/><text x="565" y="414">Web</text>
+      </g>
 
-      <rect x="485" y="404" width="105" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="537" y="426" text-anchor="middle">Desktop</text>
+      <!-- row 4 -->
+      <g>
+        <rect x="72" y="436" width="112" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="90" cy="453" r="3.5" fill="#3B82F6"/><text x="101" y="458">Desktop</text>
 
-      <rect x="70" y="448" width="120" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="130" y="470" text-anchor="middle">WebSocket</text>
+        <rect x="194" y="436" width="130" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="212" cy="453" r="3.5" fill="#06B6D4"/><text x="223" y="458">WebSocket</text>
 
-      <rect x="200" y="448" width="180" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
-      <text x="290" y="470" text-anchor="middle">Push Notification</text>
+        <rect x="334" y="436" width="190" height="34" rx="17" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+        <circle cx="352" cy="453" r="3.5" fill="#8B5CF6"/><text x="363" y="458">Push Notification</text>
+      </g>
     </g>
 
-    <g>
-      <rect x="70" y="490" width="190" height="86" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
-      <rect x="70" y="490" width="190" height="43" rx="18" fill="url(#glassShine)"/>
-      <text x="165" y="534" text-anchor="middle" font-size="32" font-weight="800" fill="url(#accentText)">2+</text>
-      <text x="165" y="559" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Years Building Production Apps</text>
+    <!-- STAT CARDS - modern icon+number layout -->
+    <g font-family="'Segoe UI','Inter',-apple-system,sans-serif">
+      <rect x="72" y="480" width="270" height="92" rx="20" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#softShadow)"/>
+      <rect x="72" y="480" width="270" height="46" rx="20" fill="url(#glassShine)"/>
+      <circle cx="118" cy="526" r="26" fill="url(#iconFill)" opacity="0.18"/>
+      <g stroke="#67E8F9" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="118" cy="526" r="14"/>
+        <path d="M118,517 V526 L125,530"/>
+      </g>
+      <text x="156" y="518" font-size="30" font-weight="800" fill="url(#accentText)">2+</text>
+      <text x="156" y="536" font-size="12" fill="#9CA3AF">Years Building</text>
+      <text x="156" y="551" font-size="12" fill="#9CA3AF">Production Apps</text>
 
-      <rect x="280" y="490" width="190" height="86" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
-      <rect x="280" y="490" width="190" height="43" rx="18" fill="url(#glassShine)"/>
-      <text x="375" y="534" text-anchor="middle" font-size="32" font-weight="800" fill="url(#accentText)">20+</text>
-      <text x="375" y="559" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Production Apps</text>
+      <rect x="362" y="480" width="270" height="92" rx="20" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#softShadow)"/>
+      <rect x="362" y="480" width="270" height="46" rx="20" fill="url(#glassShine)"/>
+      <circle cx="408" cy="526" r="26" fill="url(#iconFill)" opacity="0.18"/>
+      <g fill="#C4B5FD">
+        <rect x="399" y="513" width="9" height="9" rx="2"/>
+        <rect x="411" y="513" width="9" height="9" rx="2"/>
+        <rect x="399" y="525" width="9" height="9" rx="2"/>
+        <rect x="411" y="525" width="9" height="9" rx="2"/>
+      </g>
+      <text x="446" y="518" font-size="30" font-weight="800" fill="url(#accentText)">20+</text>
+      <text x="446" y="536" font-size="12" fill="#9CA3AF">Production Apps</text>
+      <text x="446" y="551" font-size="12" fill="#9CA3AF">Shipped &amp; Live</text>
     </g>
   </g>
 
+  <!-- ============ TECH REACH DIAGRAM ============ -->
   <g fill="none" stroke="url(#lineGrad)" stroke-width="1.3" opacity="0.55">
     <path d="M1050,205 C1000,220 970,260 995,300" />
     <path d="M1220,300 C1260,295 1300,290 1350,290" />
@@ -275,6 +306,13 @@
     <circle cx="1148" cy="298" r="6"/>
     <circle cx="1082" cy="182" r="5"/>
   </g>
+  <g font-family="'Segoe UI','Inter',sans-serif" font-size="10.5" font-weight="700" fill="#9CA3AF">
+    <text x="1010" y="181" text-anchor="end">Android</text>
+    <text x="1150" y="192" text-anchor="start">iOS</text>
+    <text x="998" y="296" text-anchor="end">Desktop</text>
+    <text x="1156" y="303" text-anchor="start">Web</text>
+    <text x="1082" y="172" text-anchor="middle">API</text>
+  </g>
 
   <g transform="translate(1180,300)">
     <circle r="50" fill="none" stroke="url(#borderGrad)" stroke-width="1.3" opacity="0.4"/>
@@ -303,42 +341,52 @@
     <rect x="1492" y="398" width="86" height="20" rx="10"/>
   </g>
 
+  <!-- ============ EDITOR WINDOW ============ -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-9; 0,0" dur="6.5s" repeatCount="indefinite"/>
-    <rect x="880" y="90" width="340" height="215" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
-    <rect x="880" y="90" width="340" height="107" rx="14" fill="url(#glassShine)"/>
+    <rect x="880" y="90" width="340" height="215" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="880" y="90" width="340" height="107" rx="18" fill="url(#glassShine)"/>
     <g clip-path="url(#editorClip)">
-      <rect x="880" y="90" width="340" height="32" fill="#FFFFFF" opacity="0.03"/>
+      <rect x="880" y="90" width="340" height="32" fill="#FFFFFF" opacity="0.04"/>
       <circle cx="898" cy="106" r="5" fill="#FF5F56"/>
       <circle cx="914" cy="106" r="5" fill="#FFBD2E"/>
       <circle cx="930" cy="106" r="5" fill="#27C93F"/>
       <text x="1200" y="110" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#9CA3AF">home_controller.dart</text>
 
-      <g font-family="'SFMono-Regular',Consolas,monospace" font-size="13">
-        <text x="900" y="148"><tspan fill="#8B5CF6">class</tspan><tspan fill="#FFFFFF"> HomeController </tspan><tspan fill="#8B5CF6">extends</tspan><tspan fill="#06B6D4"> GetxController</tspan><tspan fill="#9CA3AF"> {</tspan></text>
-        <text x="922" y="174"><tspan fill="#8B5CF6">final</tspan><tspan fill="#FFFFFF"> items </tspan><tspan fill="#9CA3AF">= &lt;</tspan><tspan fill="#06B6D4">Item</tspan><tspan fill="#9CA3AF">&gt;[].</tspan><tspan fill="#06B6D4">obs</tspan><tspan fill="#9CA3AF">;</tspan></text>
-        <text x="900" y="200" fill="#9CA3AF">}</text>
-        <text x="900" y="226" fill="#4B5563" font-style="italic">// production ready</text>
+      <rect x="880" y="122" width="26" height="183" fill="#FFFFFF" opacity="0.02"/>
+      <g font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#4B5563" text-anchor="end">
+        <text x="900" y="148">1</text>
+        <text x="900" y="174">2</text>
+        <text x="900" y="200">3</text>
+        <text x="900" y="226">4</text>
       </g>
-      <rect x="900" y="216" width="7" height="14" fill="#3B82F6">
+
+      <g font-family="'SFMono-Regular',Consolas,monospace" font-size="13">
+        <text x="912" y="148"><tspan fill="#8B5CF6">class</tspan><tspan fill="#FFFFFF"> HomeController </tspan><tspan fill="#8B5CF6">extends</tspan><tspan fill="#06B6D4"> GetxController</tspan><tspan fill="#9CA3AF"> {</tspan></text>
+        <text x="934" y="174"><tspan fill="#8B5CF6">final</tspan><tspan fill="#FFFFFF"> items </tspan><tspan fill="#9CA3AF">= &lt;</tspan><tspan fill="#06B6D4">Item</tspan><tspan fill="#9CA3AF">&gt;[].</tspan><tspan fill="#06B6D4">obs</tspan><tspan fill="#9CA3AF">;</tspan></text>
+        <text x="912" y="200" fill="#9CA3AF">}</text>
+        <text x="912" y="226" fill="#4B5563" font-style="italic">// production ready</text>
+      </g>
+      <rect x="912" y="216" width="7" height="14" fill="#3B82F6">
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
       </rect>
     </g>
   </g>
 
+  <!-- ============ BROWSER WINDOW ============ -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-7; 0,0" dur="7.5s" repeatCount="indefinite"/>
-    <rect x="1240" y="100" width="300" height="180" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
-    <rect x="1240" y="100" width="300" height="90" rx="14" fill="url(#glassShine)"/>
+    <rect x="1240" y="100" width="300" height="180" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="1240" y="100" width="300" height="90" rx="18" fill="url(#glassShine)"/>
     <g clip-path="url(#browserClip)">
-      <rect x="1240" y="100" width="300" height="30" fill="#FFFFFF" opacity="0.03"/>
+      <rect x="1240" y="100" width="300" height="30" fill="#FFFFFF" opacity="0.04"/>
       <circle cx="1258" cy="115" r="4" fill="#FF5F56"/>
       <circle cx="1272" cy="115" r="4" fill="#FFBD2E"/>
       <circle cx="1286" cy="115" r="4" fill="#27C93F"/>
       <rect x="1310" y="107" width="210" height="16" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <rect x="1258" y="148" width="264" height="14" rx="4" fill="#FFFFFF" opacity="0.05"/>
-      <rect x="1258" y="172" width="124" height="90" rx="8" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
-      <rect x="1394" y="172" width="128" height="90" rx="8" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
+      <rect x="1258" y="172" width="124" height="90" rx="10" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
+      <rect x="1394" y="172" width="128" height="90" rx="10" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1"/>
       <rect x="1270" y="184" width="80" height="6" rx="3" fill="#9CA3AF" opacity="0.35"/>
       <rect x="1270" y="198" width="96" height="6" rx="3" fill="#9CA3AF" opacity="0.22"/>
       <rect x="1406" y="184" width="90" height="6" rx="3" fill="#9CA3AF" opacity="0.35"/>
@@ -346,20 +394,21 @@
     </g>
   </g>
 
+  <!-- ============ TERMINAL WINDOW ============ -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="8s" repeatCount="indefinite"/>
-    <rect x="890" y="350" width="280" height="150" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
-    <rect x="890" y="350" width="280" height="75" rx="14" fill="url(#glassShine)"/>
+    <rect x="890" y="350" width="280" height="150" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="890" y="350" width="280" height="75" rx="18" fill="url(#glassShine)"/>
     <g clip-path="url(#termClip)">
-      <rect x="890" y="350" width="280" height="28" fill="#FFFFFF" opacity="0.03"/>
+      <rect x="890" y="350" width="280" height="28" fill="#FFFFFF" opacity="0.04"/>
       <circle cx="906" cy="364" r="4" fill="#FF5F56"/>
       <circle cx="920" cy="364" r="4" fill="#FFBD2E"/>
       <circle cx="934" cy="364" r="4" fill="#27C93F"/>
       <text x="1160" y="368" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#9CA3AF">zsh</text>
 
       <g font-family="'SFMono-Regular',Consolas,monospace" font-size="12.5">
-        <text x="908" y="400"><tspan fill="#06B6D4">➜</tspan><tspan fill="#9CA3AF"> ~/project </tspan><tspan fill="#FFFFFF">flutter build apk --release</tspan></text>
-        <text x="908" y="422" fill="#8B5CF6">Built build/app/outputs/flutter-apk/app-release.apk</text>
+        <text x="908" y="400"><tspan fill="#06B6D4">➜</tspan><tspan fill="#9CA3AF"> ~/project </tspan><tspan fill="#FFFFFF">flutter build apk --relea</tspan></text>
+        <text x="908" y="422" fill="#8B5CF6">Built build/app/outputs/flutter-apk/ap</text>
         <text x="908" y="444"><tspan fill="#06B6D4">➜</tspan><tspan fill="#9CA3AF"> ~/project </tspan></text>
       </g>
       <rect x="960" y="434" width="7" height="14" fill="#06B6D4">
@@ -368,12 +417,13 @@
     </g>
   </g>
 
+  <!-- ============ LIVE CLOCK WINDOW ============ -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="7s" repeatCount="indefinite"/>
-    <rect x="1185" y="345" width="280" height="205" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
-    <rect x="1185" y="345" width="280" height="102" rx="14" fill="url(#glassShine)"/>
+    <rect x="1185" y="345" width="280" height="205" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="1185" y="345" width="280" height="102" rx="18" fill="url(#glassShine)"/>
     <g>
-      <rect x="1185" y="345" width="280" height="28" fill="#FFFFFF" opacity="0.03" rx="14"/>
+      <rect x="1185" y="345" width="280" height="28" fill="#FFFFFF" opacity="0.04" rx="18"/>
       <circle cx="1201" cy="359" r="4" fill="#FF5F56"/>
       <circle cx="1215" cy="359" r="4" fill="#FFBD2E"/>
       <circle cx="1229" cy="359" r="4" fill="#27C93F"/>
@@ -426,13 +476,12 @@
     </g>
   </g>
 
-
+  <!-- ============ FLUTTER main.dart CARD ============ -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="7.8s" repeatCount="indefinite"/>
-    <rect x="900" y="592" width="270" height="120" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
-    <rect x="900" y="592" width="270" height="60" rx="14" fill="url(#glassShine)"/>
-    <clipPath id="flutterCodeClip"><rect x="900" y="592" width="270" height="120" rx="14"/></clipPath>
-    <g clip-path="url(#flutterCodeClip)">
+    <rect x="900" y="592" width="270" height="120" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="900" y="592" width="270" height="60" rx="18" fill="url(#glassShine)"/>
+    <g clip-path="url(#flutterCodeClip2)">
       <circle cx="912" cy="606" r="4" fill="#FF5F56"/>
       <circle cx="926" cy="606" r="4" fill="#FFBD2E"/>
       <circle cx="940" cy="606" r="4" fill="#27C93F"/>
@@ -520,7 +569,6 @@
       await SQLite.sync();
     </text>
   </g>
-
 
   <g fill="none" stroke="url(#lineGrad)" stroke-width="2">
     <path d="M1080,580 H1400"/>
