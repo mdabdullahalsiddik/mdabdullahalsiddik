@@ -41,6 +41,28 @@
       <feGaussianBlur stdDeviation="3"/>
     </filter>
 
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+    <filter id="avatarGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+
+    <linearGradient id="glassShine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="0.5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <clipPath id="avatarClip2"><circle cx="0" cy="0" r="40"/></clipPath>
+
     <pattern id="gridPattern" width="42" height="42" patternUnits="userSpaceOnUse">
       <path d="M0 0H42V42" fill="none" stroke="#9CA3AF" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
@@ -153,11 +175,11 @@
     </g>
 
     <g>
-      <rect x="70" y="478" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+      <rect x="70" y="478" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)" filter="url(#dropShadow)"/>
       <text x="165" y="520" text-anchor="middle" font-size="30" font-weight="800" fill="url(#accentText)">1+</text>
       <text x="165" y="545" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Years Building Production Apps</text>
 
-      <rect x="280" y="478" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)"/>
+      <rect x="280" y="478" width="190" height="86" rx="16" fill="url(#panelFill)" stroke="url(#borderGrad)" filter="url(#dropShadow)"/>
       <text x="375" y="520" text-anchor="middle" font-size="30" font-weight="800" fill="url(#accentText)">10+</text>
       <text x="375" y="545" text-anchor="middle" font-size="11.5" fill="#9CA3AF" letter-spacing="0.3">Production Apps</text>
     </g>
@@ -223,7 +245,8 @@
 
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-9; 0,0" dur="6.5s" repeatCount="indefinite"/>
-    <rect x="880" y="90" width="340" height="215" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+    <rect x="880" y="90" width="340" height="215" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="880" y="90" width="340" height="107" rx="14" fill="url(#glassShine)"/>
     <g clip-path="url(#editorClip)">
       <rect x="880" y="90" width="340" height="32" fill="#FFFFFF" opacity="0.03"/>
       <circle cx="898" cy="106" r="5" fill="#FF5F56"/>
@@ -245,7 +268,8 @@
 
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-7; 0,0" dur="7.5s" repeatCount="indefinite"/>
-    <rect x="1240" y="100" width="300" height="180" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+    <rect x="1240" y="100" width="300" height="180" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="1240" y="100" width="300" height="90" rx="14" fill="url(#glassShine)"/>
     <g clip-path="url(#browserClip)">
       <rect x="1240" y="100" width="300" height="30" fill="#FFFFFF" opacity="0.03"/>
       <circle cx="1258" cy="115" r="4" fill="#FF5F56"/>
@@ -264,7 +288,8 @@
 
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="8s" repeatCount="indefinite"/>
-    <rect x="890" y="350" width="280" height="150" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+    <rect x="890" y="350" width="280" height="150" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="890" y="350" width="280" height="75" rx="14" fill="url(#glassShine)"/>
     <g clip-path="url(#termClip)">
       <rect x="890" y="350" width="280" height="28" fill="#FFFFFF" opacity="0.03"/>
       <circle cx="906" cy="364" r="4" fill="#FF5F56"/>
@@ -285,7 +310,8 @@
 
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="7s" repeatCount="indefinite"/>
-    <rect x="1185" y="345" width="280" height="205" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+    <rect x="1185" y="345" width="280" height="205" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="1185" y="345" width="280" height="102" rx="14" fill="url(#glassShine)"/>
     <g>
       <rect x="1185" y="345" width="280" height="28" fill="#FFFFFF" opacity="0.03" rx="14"/>
       <circle cx="1201" cy="359" r="4" fill="#FF5F56"/>
@@ -348,13 +374,48 @@
 
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="7.8s" repeatCount="indefinite"/>
-    <rect x="900" y="592" width="270" height="120" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
-    <clipPath id="mapClip"><rect x="907" y="599" width="256" height="86" rx="9"/></clipPath>
-    <g clip-path="url(#mapClip)">
-      <image x="907" y="599" width="256" height="86" href="https://staticmap.openstreetmap.de/staticmap.php?center=23.8103,90.4125&amp;zoom=11&amp;size=256x86&amp;markers=23.8103,90.4125,red-pushpin" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="900" y="592" width="270" height="120" rx="14" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="900" y="592" width="270" height="60" rx="14" fill="url(#glassShine)"/>
+    <clipPath id="flutterCodeClip"><rect x="900" y="592" width="270" height="120" rx="14"/></clipPath>
+    <g clip-path="url(#flutterCodeClip)">
+      <circle cx="912" cy="606" r="4" fill="#FF5F56"/>
+      <circle cx="926" cy="606" r="4" fill="#FFBD2E"/>
+      <circle cx="940" cy="606" r="4" fill="#27C93F"/>
+      <text x="1160" y="610" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="10" fill="#9CA3AF">main.dart</text>
+
+      <g font-family="'SFMono-Regular',Consolas,monospace" font-size="11.5">
+        <text x="912" y="634"><tspan fill="#8B5CF6">import</tspan><tspan fill="#FFFFFF"> 'package:flutter/material.dart'</tspan><tspan fill="#9CA3AF">;</tspan></text>
+        <text x="912" y="654"><tspan fill="#8B5CF6">void</tspan><tspan fill="#06B6D4"> main</tspan><tspan fill="#9CA3AF">() => </tspan><tspan fill="#06B6D4">runApp</tspan><tspan fill="#9CA3AF">(</tspan><tspan fill="#FFFFFF">MyApp</tspan><tspan fill="#9CA3AF">());</tspan></text>
+        <text x="912" y="674"><tspan fill="#8B5CF6">class</tspan><tspan fill="#FFFFFF"> MyApp </tspan><tspan fill="#8B5CF6">extends</tspan><tspan fill="#06B6D4"> StatelessWidget</tspan><tspan fill="#9CA3AF"> {</tspan></text>
+        <text x="934" y="694"><tspan fill="#8B5CF6">build</tspan><tspan fill="#9CA3AF">(</tspan><tspan fill="#FFFFFF">ctx</tspan><tspan fill="#9CA3AF">) => </tspan><tspan fill="#06B6D4">GetMaterialApp</tspan><tspan fill="#9CA3AF">();</tspan></text>
+      </g>
+      <rect x="912" y="662" width="7" height="13" fill="#3B82F6">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="900" y="614" width="270" height="16" fill="url(#accentText)" opacity="0.06">
+        <animate attributeName="y" values="614;700;614" dur="6s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <text x="1035" y="702" text-anchor="middle" font-family="'Segoe UI','Inter',sans-serif" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="0.5">📍 DHAKA, BANGLADESH</text>
   </g>
+
+  <g opacity="0.55">
+    <g transform="translate(1500,130) scale(0.32)">
+      <animateTransform attributeName="transform" type="rotate" additive="sum" from="0 0 0" to="360 0 0" dur="40s" repeatCount="indefinite"/>
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="url(#accentText)" opacity="0.5"/>
+    </g>
+    <g transform="translate(150,470) scale(0.24)">
+      <animateTransform attributeName="transform" type="rotate" additive="sum" from="360 0 0" to="0 0 0" dur="34s" repeatCount="indefinite"/>
+      <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="#06B6D4" opacity="0.4"/>
+    </g>
+  </g>
+
+  <g font-family="'SFMono-Regular',Consolas,monospace" fill="#3B82F6" opacity="0.16">
+    <text x="1470" y="60" font-size="12"><animate attributeName="opacity" values="0;0.22;0" dur="9s" repeatCount="indefinite"/>Widget build()</text>
+    <text x="60" y="560" font-size="12" fill="#8B5CF6"><animate attributeName="opacity" values="0;0.2;0" dur="11s" begin="2s" repeatCount="indefinite"/>setState(() {});</text>
+    <text x="1440" y="560" font-size="12" fill="#06B6D4"><animate attributeName="opacity" values="0;0.2;0" dur="10s" begin="4s" repeatCount="indefinite"/>Obx(() =&gt; ...)</text>
+    <text x="120" y="60" font-size="12" fill="#3B82F6"><animate attributeName="opacity" values="0;0.2;0" dur="8s" begin="1s" repeatCount="indefinite"/>class Controller</text>
+  </g>
+
 
   <g fill="none" stroke="url(#lineGrad)" stroke-width="2">
     <path d="M1080,580 H1400"/>
