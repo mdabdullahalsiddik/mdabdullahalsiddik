@@ -2,31 +2,38 @@
 
 <br/>
 
-<table>
+<table align="center">
 <tr>
-<td align="center" width="140">
-<strong>1+</strong><br/>
-<sub>Years Building Production Apps</sub>
+<td align="center" width="160">
+<h2>2+</h2>
+<b>Years Experience</b><br/>
+<sub>Flutter Development</sub>
 </td>
-<td align="center" width="140">
-<strong>10+</strong><br/>
-<sub>Production Apps Shipped</sub>
+
+<td align="center" width="160">
+<h2>20+</h2>
+<b>Apps Delivered</b><br/>
+<sub>Production Ready</sub>
 </td>
-<td align="center" width="140">
-<strong>6</strong><br/>
-<sub>Domains: POS, E-com, Logistics, HR</sub>
+
+<td align="center" width="220">
+<h2>6+</h2>
+<b>Industries</b><br/>
+<sub>POS • E-Commerce • LPG • HR • Logistics • Delivery</sub>
 </td>
 </tr>
 </table>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-abdullah-al-siddik-sid/)
-[![Facebook](https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/mdabdullahalsiddik2000)
-[![Email](https://img.shields.io/badge/EMAIL-14B8A6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mabdullahalsiddik@gmail.com)
-[![GitHub](https://img.shields.io/badge/GITHUB-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mdabdullahalsiddik)
-[![WhatsApp](https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](#)
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://your-portfolio-link.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-abdullah-al-siddik-sid/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/mdabdullahalsiddik2000)
+[![Email](https://img.shields.io/badge/Email-14B8A6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mabdullahalsiddik@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mdabdullahalsiddik)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801XXXXXXXXX)
 
 </div>
 
