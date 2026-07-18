@@ -31,9 +31,10 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://md-abdullah-al-siddik.web.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-abdullah-al-siddik-sid/)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/md.abdullahalsiddik/)
-[![Email](https://img.shields.io/badge/Email-14B8A6?style=for-the-badge&logo=gmail&logoColor=white)](mabdullahalsiddik@gmail.com)
+[![Email](https://img.shields.io/badge/Email-14B8A6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mabdullahalsiddik@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mdabdullahalsiddik)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801737374083)
+
 
 </div>
 
@@ -41,10 +42,9 @@
 
 ## 👋 About Me
 
-I'm a **Flutter & Dart Mobile/Desktop Developer** with hands-on experience shipping scalable, production-ready apps — from concept to deployment. I specialize in **GetX state management**, offline-first architecture, and clean, reactive UI.
+I'm a **Flutter & Dart Developer** specializing in **mobile, web, and desktop applications**, with hands-on experience building scalable, production-ready solutions from concept to deployment. I focus on **GetX state management**, clean architecture, offline-first applications, and responsive, high-performance user interfaces.
 
-I've worked across **POS systems, e-commerce platforms, logistics & delivery apps, gas depot operations software, and attendance/HR management systems** — building reliable products that solve real business problems.
-
+I have developed applications across multiple industries, including **POS systems, e-commerce, LPG & gas depot management, logistics & delivery, attendance & HR management, and business automation**. My goal is to build reliable, maintainable, and user-friendly software that solves real-world business challenges while delivering an excellent user experience.
 <br/>
 
 ## 🧩 Tech Stack
@@ -81,24 +81,18 @@ I've worked across **POS systems, e-commerce platforms, logistics & delivery app
 
 ## 🚀 What I Build
 
-| Domain | Highlights |
+| App | Highlights |
 |---|---|
-| 🔥 **LPG Gas Suite** | 6-app system — Customer, Gate Man, Driver, Dealer, Manager, Delivery apps with GetX, ESC/POS & PDF receipt printing |
-| 🛒 **E-commerce** | Multi-vendor storefronts, cart/checkout flows, OTP auth, discount pricing engines |
-| 💳 **POS Systems** | Offline-first SQLite sync, barcode scanning, staff management, Bengali currency PDF invoices |
-| 🚚 **Logistics & Delivery** | Payment gateway integration, courier area mapping, real-time order tracking |
-| 🕒 **Attendance/HR** | Role-based dashboards, salary reports with signatures, performance-optimized rebuilds |
+| 🔥 **LPG Management Suite** | Complete **6-app ecosystem** — Customer, Dealer, Driver, Gate Man, Manager & Delivery apps with GetX, offline support, ESC/POS thermal printing, PDF invoices, and inventory management. |
+| 🛒 **E-Commerce Solutions** | Product catalogs, cart & checkout, OTP authentication, Google Sign-In, payment gateway integration, coupon/discount engines, and order management. |
+| 💳 **POS Systems** | Offline-first architecture, SQLite synchronization, barcode scanning, thermal receipt printing, Bengali PDF invoices, inventory & staff management. |
+| 🚚 **Logistics & Delivery** | Delivery workflow, route management, order tracking, payment collection, courier integration, and real-time delivery status. |
+| 👥 **Attendance & HR** | Employee attendance, role-based access, salary & payroll reports, PDF exports, and performance-optimized dashboards. |
+| 🌐 **Cross-Platform Apps** | Responsive Flutter applications for **Android, iOS, Web, and Windows Desktop** with a shared codebase and clean architecture. |
 
 <br/>
 
-## 📊 GitHub Stats
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=mdabdullahalsiddik&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdabdullahalsiddik&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
-</div>
-
-<br/>
 
 <div align="center">
 <img src="https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
