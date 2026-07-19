@@ -92,7 +92,11 @@ I have developed applications across multiple industries, including **POS system
 
 <br/>
 
-
+<div align="center">
+ <img src="https://mrashed21-github-stats.vercel.app/api?username=mdabdullahalsiddik&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=3B82F6&icon_color=06B6D4&text_color=9CA3AF&border_color=30363D&hide_border=false" width="32%" />
+<img src="https://mrashed21-github-stats.vercel.app/api/top-langs/?username=mdabdullahalsiddik&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=3B82F6&text_color=9CA3AF&border_color=30363D&hide_border=false" width="32%" /> 
+<img src="https://streak-stats.demolab.com/?user=mdabdullahalsiddik&theme=tokyonight&background=0D1117&stroke=30363D&ring=3B82F6&fire=8B5CF6&currStreakLabel=06B6D4&sideLabels=9CA3AF&dates=9CA3AF" width="32%" />
+</div>
 
 <div align="center">
 <img src="https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
