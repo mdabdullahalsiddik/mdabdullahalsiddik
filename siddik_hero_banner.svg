@@ -1,81 +1,89 @@
 <svg width="1600" height="850" viewBox="0 0 1600 850" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Color Gradients -->
-    <linearGradient id="accentText" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accentText" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#818CF8"/>
-      <stop offset="100%" stop-color="#C084FC"/>
+      <stop offset="35%" stop-color="#818CF8"/>
+      <stop offset="70%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#F472B6"/>
     </linearGradient>
 
-    <linearGradient id="goldGradient" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#FBBF24"/>
       <stop offset="100%" stop-color="#FCD34D"/>
     </linearGradient>
 
-    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.5"/>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="33%" stop-color="#818CF8" stop-opacity="0.4"/>
+      <stop offset="66%" stop-color="#C084FC" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.5"/>
     </linearGradient>
 
-    <linearGradient id="panelFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.8"/>
+    <linearGradient id="panelFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.85"/>
     </linearGradient>
 
-    <linearGradient id="cardFill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.3"/>
+    <linearGradient id="statFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.08"/>
     </linearGradient>
 
-    <linearGradient id="statFill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.06"/>
-    </linearGradient>
-
-    <linearGradient id="iconFill" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="iconFill" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
     </linearGradient>
 
-    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.6"/>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#C084FC" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.7"/>
     </linearGradient>
 
     <!-- Radial Glow Backgrounds -->
     <radialGradient id="bgGlowBlue" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.35"/>
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.4"/>
       <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="bgGlowPurple" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.30"/>
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="bgGlowCyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.25"/>
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGlowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0"/>
     </radialGradient>
 
     <!-- Filters -->
     <filter id="blurLg" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="60"/>
+      <feGaussianBlur stdDeviation="65"/>
     </filter>
 
-    <filter id="dropShadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.6"/>
-    </filter>
-
-    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.4"/>
-    </filter>
-
-    <filter id="clockGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+    <filter id="glowEffect" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+    </filter>
+
+    <filter id="dropShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
     </filter>
 
     <radialGradient id="clockFace" cx="35%" cy="30%" r="80%">
@@ -83,21 +91,21 @@
       <stop offset="100%" stop-color="#090D16"/>
     </radialGradient>
 
-    <linearGradient id="glassShine" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12"/>
+    <linearGradient id="glassShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
       <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="flutterGrad" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="flutterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38BDF8"/>
       <stop offset="100%" stop-color="#0284C7"/>
     </linearGradient>
 
-    <linearGradient id="shimmerSweep" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="shimmerSweep" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="48%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.12"/>
       <stop offset="52%" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
@@ -118,49 +126,57 @@
   <rect width="1600" height="850" fill="#0B0F17"/>
   <rect width="1600" height="850" fill="url(#gridPattern)"/>
 
-  <!-- Ambient Glow Orbs -->
+  <!-- Ambient Glow Orbs with Floating Motion -->
   <g transform="translate(0,40)">
-    <circle cx="1260" cy="150" r="260" fill="url(#bgGlowBlue)" filter="url(#blurLg)">
+    <circle cx="1260" cy="150" r="280" fill="url(#bgGlowBlue)" filter="url(#blurLg)">
       <animate attributeName="opacity" values="0.7;1;0.7" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1420" cy="480" r="280" fill="url(#bgGlowPurple)" filter="url(#blurLg)">
+    <circle cx="1420" cy="480" r="300" fill="url(#bgGlowPurple)" filter="url(#blurLg)">
       <animate attributeName="opacity" values="0.8;1;0.8" dur="9s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="960" cy="500" r="220" fill="url(#bgGlowCyan)" filter="url(#blurLg)">
+    <circle cx="960" cy="500" r="240" fill="url(#bgGlowCyan)" filter="url(#blurLg)">
       <animate attributeName="opacity" values="0.6;1;0.6" dur="10s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="180" cy="520" r="180" fill="url(#bgGlowBlue)" filter="url(#blurLg)" opacity="0.4"/>
+    <circle cx="180" cy="520" r="200" fill="url(#bgGlowPink)" filter="url(#blurLg)" opacity="0.35"/>
   </g>
 
-  <!-- Floating Ambient Particles -->
+  <!-- Floating Ambient Stars & Code Symbols -->
+  <g font-family="monospace" font-size="12" fill="#38BDF8" opacity="0.4">
+    <text x="120" y="70"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="5s" repeatCount="indefinite"/>&lt;Flutter/&gt;</text>
+    <text x="750" y="80" fill="#C084FC"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="7s" repeatCount="indefinite"/>GetX.put()</text>
+    <text x="1480" y="70" fill="#34D399"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="6s" repeatCount="indefinite"/>SQLite.sync()</text>
+    <text x="780" y="560" fill="#F472B6"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="8s" repeatCount="indefinite"/>BLoC &amp; CleanArch</text>
+  </g>
+
+  <!-- Floating Particle Dots -->
   <g>
-    <circle cx="150" cy="120" r="2.5" fill="#38BDF8" opacity="0.6"><animate attributeName="cy" values="120;90;120" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="720" cy="190" r="2.2" fill="#818CF8" opacity="0.5"><animate attributeName="cy" values="190;160;190" dur="7s" repeatCount="indefinite"/></circle>
-    <circle cx="820" cy="500" r="2" fill="#C084FC" opacity="0.55"><animate attributeName="cy" values="500;470;500" dur="8s" repeatCount="indefinite"/></circle>
-    <circle cx="1550" cy="220" r="2.8" fill="#38BDF8" opacity="0.5"><animate attributeName="cy" values="220;190;220" dur="6.5s" repeatCount="indefinite"/></circle>
-    <circle cx="1230" cy="560" r="2" fill="#34D399" opacity="0.45"><animate attributeName="cy" values="560;530;560" dur="7.5s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="120" r="3" fill="#38BDF8" filter="url(#glowEffect)"><animate attributeName="cy" values="120;85;120" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="190" r="2.5" fill="#818CF8" filter="url(#glowEffect)"><animate attributeName="cy" values="190;155;190" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="500" r="2.5" fill="#C084FC" filter="url(#glowEffect)"><animate attributeName="cy" values="500;465;500" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="1550" cy="220" r="3" fill="#34D399" filter="url(#glowEffect)"><animate attributeName="cy" values="220;185;220" dur="6.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1230" cy="560" r="2.5" fill="#F472B6" filter="url(#glowEffect)"><animate attributeName="cy" values="560;525;560" dur="7.5s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- ================= LEFT COLUMN: HERO INFORMATION ================= -->
   <g transform="translate(0,60)">
-    <!-- Header Title -->
+    <!-- Header Title with Neon Glow -->
     <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-      <text x="70" y="65" font-size="56" font-weight="800" letter-spacing="-1.5" fill="url(#accentText)">Md. Abdullah Al Siddik</text>
+      <text x="70" y="65" font-size="58" font-weight="800" letter-spacing="-1.5" fill="url(#accentText)" filter="url(#glowEffect)">Md. Abdullah Al Siddik</text>
       <text x="72" y="105" font-size="24" font-weight="600" fill="#E2E8F0">
         Flutter &amp; Dart Architect <tspan fill="#38BDF8">• Mobile, Web &amp; Desktop</tspan>
       </text>
 
-      <!-- Live Beacon Pill -->
+      <!-- Live Beacon Pill with Pulsing Ring -->
       <g transform="translate(72,122)">
-        <rect x="0" y="0" width="225" height="34" rx="17" fill="#10B9811A" stroke="#10B981" stroke-opacity="0.6" stroke-width="1.2"/>
+        <rect x="0" y="0" width="245" height="34" rx="17" fill="#10B9811A" stroke="#10B981" stroke-opacity="0.7" stroke-width="1.4"/>
         <circle cx="20" cy="17" r="5" fill="#10B981">
           <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
         </circle>
         <circle cx="20" cy="17" r="8" fill="none" stroke="#10B981" stroke-width="1">
-          <animate attributeName="r" values="5;12;5" dur="1.8s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite"/>
+          <animate attributeName="r" values="5;13;5" dur="1.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.7;0;0.7" dur="1.8s" repeatCount="indefinite"/>
         </circle>
-        <text x="38" y="22" font-size="13.5" font-weight="700" fill="#34D399">Available for Projects &amp; Hiring</text>
+        <text x="38" y="22" font-size="13.5" font-weight="700" fill="#34D399">🟢 Available for Hire &amp; Projects</text>
       </g>
 
       <!-- Bio / Specialization -->
@@ -264,10 +280,10 @@
       <g transform="translate(72,442)">
         <!-- Card 1: Experience -->
         <g filter="url(#softShadow)">
-          <rect x="0" y="0" width="195" height="105" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+          <rect x="0" y="0" width="195" height="105" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4"/>
           <rect x="0" y="0" width="195" height="45" rx="18" fill="url(#glassShine)"/>
-          <circle cx="36" cy="52" r="22" fill="url(#iconFill)" opacity="0.18"/>
-          <g stroke="#38BDF8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="36" cy="52" r="22" fill="url(#iconFill)" opacity="0.2"/>
+          <g stroke="#38BDF8" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="36" cy="52" r="11"/>
             <path d="M36,45 V52 L42,56"/>
           </g>
@@ -278,9 +294,9 @@
 
         <!-- Card 2: Apps Delivered -->
         <g transform="translate(210,0)" filter="url(#softShadow)">
-          <rect x="0" y="0" width="195" height="105" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+          <rect x="0" y="0" width="195" height="105" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4"/>
           <rect x="0" y="0" width="195" height="45" rx="18" fill="url(#glassShine)"/>
-          <circle cx="36" cy="52" r="22" fill="url(#iconFill)" opacity="0.18"/>
+          <circle cx="36" cy="52" r="22" fill="url(#iconFill)" opacity="0.2"/>
           <g fill="#A78BFA">
             <rect x="25" y="41" width="9" height="9" rx="2"/>
             <rect x="38" y="41" width="9" height="9" rx="2"/>
@@ -294,10 +310,10 @@
 
         <!-- Card 3: Industries -->
         <g transform="translate(420,0)" filter="url(#softShadow)">
-          <rect x="0" y="0" width="205" height="105" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+          <rect x="0" y="0" width="205" height="105" rx="18" fill="url(#statFill)" stroke="url(#borderGrad)" stroke-width="1.4"/>
           <rect x="0" y="0" width="205" height="45" rx="18" fill="url(#glassShine)"/>
-          <circle cx="36" cy="52" r="22" fill="url(#iconFill)" opacity="0.18"/>
-          <g stroke="#34D399" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="36" cy="52" r="22" fill="url(#iconFill)" opacity="0.2"/>
+          <g stroke="#34D399" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <rect x="26" y="43" width="20" height="18" rx="3"/>
             <path d="M30,43 V39 C30,37.5 31.5,36 33,36 H39 C40.5,36 42,37.5 42,39 V43"/>
           </g>
@@ -312,23 +328,23 @@
   <!-- ================= RIGHT COLUMN: INTERACTIVE WINDOWS & GRAPHICS ================= -->
 
   <!-- Flutter Target Architecture Connections -->
-  <g fill="none" stroke="url(#lineGrad)" stroke-width="1.4" opacity="0.6">
+  <g fill="none" stroke="url(#lineGrad)" stroke-width="1.5" opacity="0.65">
     <path d="M1060,200 C1000,220 970,260 995,300" />
     <path d="M1220,300 C1260,295 1300,290 1350,290" />
     <path d="M1030,340 C1000,360 970,400 990,430" />
   </g>
-  <circle r="3" fill="#38BDF8">
+  <circle r="3.5" fill="#38BDF8" filter="url(#glowEffect)">
     <animateMotion path="M1060,200 C1000,220 970,260 995,300" dur="3.2s" repeatCount="indefinite"/>
   </circle>
-  <circle r="3" fill="#C084FC">
+  <circle r="3.5" fill="#C084FC" filter="url(#glowEffect)">
     <animateMotion path="M1220,300 C1260,295 1300,290 1350,290" dur="3.4s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Central Flutter Logo Node -->
   <g transform="translate(1185,310)">
-    <circle r="46" fill="none" stroke="url(#borderGrad)" stroke-width="1.4" opacity="0.5"/>
+    <circle r="48" fill="none" stroke="url(#borderGrad)" stroke-width="1.6" filter="url(#glowEffect)"/>
     <g>
-      <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="3s" repeatCount="indefinite"/>
       <polygon points="-10,-44 34,-44 -10,0 8,18 34,18 -10,44 -34,20 -8,-6" fill="url(#flutterGrad)"/>
       <polygon points="8,18 34,18 -10,44 -34,20" fill="#0284C7" opacity="0.85"/>
     </g>
@@ -338,7 +354,7 @@
   <!-- WINDOW 1: CODE EDITOR (home_controller.dart) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="6.5s" repeatCount="indefinite"/>
-    <rect x="880" y="85" width="340" height="225" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="880" y="85" width="340" height="225" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
     <rect x="880" y="85" width="340" height="110" rx="18" fill="url(#glassShine)"/>
     <g clip-path="url(#editorClip)">
       <rect x="880" y="85" width="340" height="32" fill="#FFFFFF" opacity="0.04"/>
@@ -373,7 +389,7 @@
   <!-- WINDOW 2: BROWSER PREVIEW -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="7.5s" repeatCount="indefinite"/>
-    <rect x="1240" y="95" width="300" height="190" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="1240" y="95" width="300" height="190" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
     <rect x="1240" y="95" width="300" height="95" rx="18" fill="url(#glassShine)"/>
     <g clip-path="url(#browserClip)">
       <rect x="1240" y="95" width="300" height="30" fill="#FFFFFF" opacity="0.04"/>
@@ -394,7 +410,7 @@
   <!-- WINDOW 3: LIVE DHAKA CLOCK & WEATHER WIDGET -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-7; 0,0" dur="7s" repeatCount="indefinite"/>
-    <rect x="1185" y="360" width="280" height="215" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="1185" y="360" width="280" height="215" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
     <rect x="1185" y="360" width="280" height="105" rx="18" fill="url(#glassShine)"/>
     <g>
       <rect x="1185" y="360" width="280" height="30" fill="#FFFFFF" opacity="0.04" rx="18"/>
@@ -413,7 +429,7 @@
       </g>
 
       <!-- Analog Clock Face -->
-      <circle cx="1325" cy="448" r="54" fill="url(#clockFace)" stroke="url(#borderGrad)" stroke-width="2" filter="url(#clockGlow)"/>
+      <circle cx="1325" cy="448" r="54" fill="url(#clockFace)" stroke="url(#borderGrad)" stroke-width="2" filter="url(#glowEffect)"/>
       <circle cx="1325" cy="448" r="52" fill="none" stroke="url(#lineGrad)" stroke-width="1" opacity="0.4"/>
 
       <!-- Hour Tick Marks -->
@@ -460,7 +476,7 @@
   <!-- WINDOW 4: TERMINAL (CLI) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="8s" repeatCount="indefinite"/>
-    <rect x="890" y="360" width="280" height="155" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="890" y="360" width="280" height="155" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
     <rect x="890" y="360" width="280" height="78" rx="18" fill="url(#glassShine)"/>
     <g clip-path="url(#termClip)">
       <rect x="890" y="360" width="280" height="28" fill="#FFFFFF" opacity="0.04"/>
@@ -484,7 +500,7 @@
   <!-- WINDOW 5: FLUTTER main.dart CODE CARD -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="7.8s" repeatCount="indefinite"/>
-    <rect x="900" y="615" width="270" height="135" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.2" filter="url(#dropShadow)"/>
+    <rect x="900" y="615" width="270" height="135" rx="18" fill="url(#panelFill)" stroke="url(#borderGrad)" stroke-width="1.4" filter="url(#dropShadow)"/>
     <rect x="900" y="615" width="270" height="68" rx="18" fill="url(#glassShine)"/>
     <g clip-path="url(#flutterCodeClip2)">
       <circle cx="912" cy="629" r="4" fill="#EF4444"/>
@@ -511,6 +527,6 @@
     </rect>
   </g>
 
-  <!-- Outer Border Glow -->
-  <rect x="0" y="0" width="1600" height="850" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.6"/>
+  <!-- Outer Neon Border Glow -->
+  <rect x="0" y="0" width="1600" height="850" fill="none" stroke="url(#borderGrad)" stroke-width="2.5" opacity="0.8"/>
 </svg>

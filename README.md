@@ -2,6 +2,15 @@
 
 <br/>
 
+<!-- ================= ANIMATED TYPING HEADER ================= -->
+<div align="center">
+  <a href="https://github.com/mdabdullahalsiddik">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=780&lines=Flutter+%26+Dart+Architect;GetX+%26+Clean+Architecture+Specialist;Offline-First+POS+%26+E-Commerce+Pioneer;Building+6-App+LPG+Depot+Management+Ecosystems;Mobile%2C+Web+%26+Windows+Desktop+Apps" alt="Typing SVG" />
+  </a>
+</div>
+
+<br/>
+
 <!-- ================= QUICK CONTACT & LINKS BADGES ================= -->
 <div align="center">
 
@@ -19,19 +28,19 @@
 <!-- ================= METRICS STATS TABLE ================= -->
 <table align="center">
 <tr>
-<td align="center" width="200">
+<td align="center" width="220">
 <h3>⚡ 2+ Years</h3>
 <b>Experience</b><br/>
 <sub>Flutter &amp; Dart Architect</sub>
 </td>
 
-<td align="center" width="200">
+<td align="center" width="220">
 <h3>🚀 20+ Apps</h3>
 <b>Production Delivered</b><br/>
 <sub>Mobile • Web • Desktop</sub>
 </td>
 
-<td align="center" width="260">
+<td align="center" width="280">
 <h3>🏭 6+ Sectors</h3>
 <b>Industry Domains</b><br/>
 <sub>POS • E-Commerce • LPG Depot • HR • Logistics</sub>
@@ -55,12 +64,12 @@ I specialize in building complex enterprise software suites, including **6-app L
 
 ### 📱 Mobile & Cross-Platform Development
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="42" alt="Flutter" title="Flutter"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="42" alt="Dart" title="Dart"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="42" alt="Android" title="Android"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="42" alt="iOS" title="iOS"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="42" alt="Web" title="Web"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="42" alt="Windows Desktop" title="Windows Desktop"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="45" alt="Flutter" title="Flutter"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="45" alt="Dart" title="Dart"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="45" alt="Android" title="Android"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="45" alt="iOS" title="iOS"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="45" alt="Web" title="Web"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="45" alt="Windows Desktop" title="Windows Desktop"/>
 </p>
 
 ### ⚡ Architecture, State Management & APIs
@@ -74,19 +83,19 @@ I specialize in building complex enterprise software suites, including **6-app L
 
 ### 🗄️ Database & Storage Solutions
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="42" alt="Firebase" title="Firebase"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="42" alt="SQLite" title="SQLite"/> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="45" alt="Firebase" title="Firebase"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="45" alt="SQLite" title="SQLite"/> &nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Shared%20Preferences-0284C7?style=for-the-badge&logo=flutter&logoColor=white" />
 </p>
 
 ### 🛠️ Developer Tools & Design Workflow
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" title="Git"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" title="GitHub"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="Figma" title="Figma"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="VS Code" title="VS Code"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="Android Studio" title="Android Studio"/> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" title="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="42" alt="Git" title="Git"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="42" alt="GitHub" title="GitHub"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="42" alt="Figma" title="Figma"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="42" alt="VS Code" title="VS Code"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="42" alt="Android Studio" title="Android Studio"/> &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="42" alt="Python" title="Python"/>
 </p>
 
 </div>
@@ -103,6 +112,47 @@ I specialize in building complex enterprise software suites, including **6-app L
 | 🚚 **Logistics & Delivery Fleet** | Real-time driver navigation workflow, intelligent route assignment, order status sync, payment on delivery (COD) collection, and dispatch management. |
 | 👥 **HR & Attendance Dashboard** | Employee biometric/location attendance logging, role-based access control (RBAC), salary calculation, commission tracking, and PDF export reports. |
 | 🌐 **Multi-Platform Enterprise Apps** | Unified Flutter codebase compiled natively for **Android, iOS, Web, and Windows Desktop** with adaptive UI layouts. |
+
+<br/>
+
+<!-- ================= EXPANDABLE TECHNICAL DEEP DIVES ================= -->
+## 💡 Engineering Highlights & Deep Dives
+
+<details>
+<summary><b>⚡ How I Architect Offline-First SQLite Synchronization</b></summary>
+<br/>
+
+In enterprise systems (e.g., POS & LPG Depot Management), network connectivity can be unreliable. I design a **two-tier storage architecture**:
+1. **Local Writes**: All user transactions write instantly to local SQLite tables using reactive GetX controllers.
+2. **Background Sync Engine**: A dedicated worker checks for network availability and pushes queued sync payload batches to cloud REST endpoints with automatic retry mechanisms and collision handlers.
+3. **Zero UI Blocking**: Asynchronous background isolation ensures cashier checkout and barcode scanning remain buttery smooth at 60 FPS.
+</details>
+
+<details>
+<summary><b>🖨️ ESC/POS Thermal Printing & Bengali PDF Engine</b></summary>
+<br/>
+
+Built native hardware integration wrappers for 58mm and 80mm ESC/POS Bluetooth and USB thermal printers:
+- **Receipt Formatting**: Custom raster matrix rendering supporting UTF-8 Bengali font glyphs.
+- **Invoice Generation**: High-performance PDF generator supporting dynamic tax calculation, discount line items, and custom QR codes for payment verification.
+</details>
+
+<details>
+<summary><b>🏗️ Clean Architecture & GetX State Pattern</b></summary>
+<br/>
+
+To ensure enterprise codebases remain testable and scalable:
+- **Presentation Layer**: Flutter UI + GetView & GetWidget binded with dependency injections (`Get.lazyPut()`).
+- **Domain Layer**: Clean UseCases and Entity definitions decoupled from external dependencies.
+- **Data Layer**: Repositories managing switching between REST API DataSources and Local SQLite Caches seamlessly.
+</details>
+
+<br/>
+
+<!-- ================= GITHUB TROPHIES ================= -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mdabdullahalsiddik&theme=onedark&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+</div>
 
 <br/>
 
