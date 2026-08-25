@@ -14,8 +14,8 @@
     </linearGradient>
 
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.96"/>
     </linearGradient>
 
     <linearGradient id="statBg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -23,13 +23,19 @@
       <stop offset="100%" stop-color="#818CF8" stop-opacity="0.1"/>
     </linearGradient>
 
+    <!-- Flutter Gradient -->
+    <linearGradient id="flutterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+
     <!-- Background Radial Glows -->
     <radialGradient id="bgGlow1" cx="20%" cy="30%" r="50%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.3"/>
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="bgGlow2" cx="80%" cy="40%" r="50%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.3"/>
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
 
@@ -41,17 +47,91 @@
 
     <!-- Grid Pattern -->
     <pattern id="gridPattern" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#334155" stroke-opacity="0.3" stroke-width="1"/>
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#334155" stroke-opacity="0.25" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <!-- Deep High-Contrast Canvas -->
+  <!-- Deep High-Contrast Canvas (Clean Dark Background, NO light skew line) -->
   <rect width="1600" height="850" fill="#090D16"/>
   <rect width="1600" height="850" fill="url(#gridPattern)"/>
 
-  <!-- Subtle Ambient Glows -->
+  <!-- Ambient Glows -->
   <circle cx="300" cy="300" r="350" fill="url(#bgGlow1)"/>
   <circle cx="1300" cy="350" r="400" fill="url(#bgGlow2)"/>
+
+  <!-- ================= BACKGROUND FLOATING ANIMATED TECH ICONS ================= -->
+  <g opacity="0.25">
+    <!-- 1. FLUTTER FLOATING ICON (Top Center Left) -->
+    <g transform="translate(730, 90) scale(0.7)">
+      <animateTransform attributeName="transform" type="translate" values="730,90; 730,70; 730,90" dur="6s" repeatCount="indefinite"/>
+      <polygon points="0,0 28,0 0,28 12,40 28,40 0,68 -16,52 0,34" fill="#38BDF8"/>
+      <polygon points="12,40 28,40 0,68 -16,52" fill="#0284C7"/>
+    </g>
+
+    <!-- 2. DART FLOATING ICON (Mid Left Background) -->
+    <g transform="translate(680, 280) scale(0.65)">
+      <animateTransform attributeName="transform" type="translate" values="680,280; 680,305; 680,280" dur="7.5s" repeatCount="indefinite"/>
+      <path d="M10,0 L35,0 L45,10 L30,45 L0,45 L10,35 Z" fill="#38BDF8"/>
+      <path d="M10,0 L35,0 L20,30 L0,20 Z" fill="#0284C7"/>
+    </g>
+
+    <!-- 3. FIREBASE FLAME FLOATING ICON (Top Right) -->
+    <g transform="translate(1500, 110) scale(0.8)">
+      <animateTransform attributeName="transform" type="translate" values="1500,110; 1500,135; 1500,110" dur="6.5s" repeatCount="indefinite"/>
+      <path d="M5,45 L20,5 L28,20 L35,8 L50,45 Z" fill="#F59E0B"/>
+      <path d="M5,45 L20,5 L28,20 Z" fill="#FBBF24"/>
+    </g>
+
+    <!-- 4. SQLITE DATABASE FLOATING ICON (Mid Right Background) -->
+    <g transform="translate(1520, 360)">
+      <animateTransform attributeName="transform" type="translate" values="1520,360; 1520,340; 1520,360" dur="8s" repeatCount="indefinite"/>
+      <ellipse cx="20" cy="10" rx="20" ry="8" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+      <path d="M0,10 V25 C0,29 9,33 20,33 C31,33 40,29 40,25 V10" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+      <path d="M0,25 V40 C0,44 9,48 20,48 C31,48 40,44 40,40 V25" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+    </g>
+
+    <!-- 5. ANDROID BOT FLOATING ICON (Bottom Center Left) -->
+    <g transform="translate(710, 520)">
+      <animateTransform attributeName="transform" type="translate" values="710,520; 710,540; 710,520" dur="7s" repeatCount="indefinite"/>
+      <path d="M5,22 C5,10 15,2 25,2 C35,2 45,10 45,22 Z" fill="#34D399"/>
+      <circle cx="15" cy="12" r="2.5" fill="#090D16"/>
+      <circle cx="35" cy="12" r="2.5" fill="#090D16"/>
+      <line x1="12" y1="2" x2="6" y2="-4" stroke="#34D399" stroke-width="2"/>
+      <line x1="38" y1="2" x2="44" y2="-4" stroke="#34D399" stroke-width="2"/>
+    </g>
+
+    <!-- 6. iOS APPLE FLOATING ICON (Bottom Far Right) -->
+    <g transform="translate(1530, 600)">
+      <animateTransform attributeName="transform" type="translate" values="1530,600; 1530,580; 1530,600" dur="6.8s" repeatCount="indefinite"/>
+      <path d="M15,10 C18,10 21,8 24,8 C28,8 31,10 33,10 C36,10 39,7 39,4 C35,4 32,7 31,10 C31,10 31,10 31,10 Z" fill="#F472B6"/>
+      <path d="M33,12 C28,12 25,15 21,15 C17,15 14,12 9,12 C3,12 0,18 0,26 C0,36 8,46 13,46 C17,46 19,43 23,43 C27,43 29,46 33,46 C38,46 42,38 43,34 C36,31 36,21 42,18 C39,14 35,12 33,12 Z" fill="#F472B6"/>
+    </g>
+
+    <!-- 7. GIT BRANCH FLOATING ICON (Bottom Center Right) -->
+    <g transform="translate(730, 720)">
+      <animateTransform attributeName="transform" type="translate" values="730,720; 730,700; 730,720" dur="8.5s" repeatCount="indefinite"/>
+      <rect x="10" y="10" width="24" height="24" rx="4" fill="none" stroke="#F97316" stroke-width="2.5" transform="rotate(45 22 22)"/>
+      <circle cx="17" cy="17" r="3" fill="#F97316"/>
+      <circle cx="27" cy="17" r="3" fill="#F97316"/>
+      <circle cx="22" cy="27" r="3" fill="#F97316"/>
+    </g>
+
+    <!-- 8. FIGMA FLOATING ICON (Top Far Left) -->
+    <g transform="translate(30, 20) scale(0.8)">
+      <animateTransform attributeName="transform" type="translate" values="30,20; 30,40; 30,20" dur="7.2s" repeatCount="indefinite"/>
+      <circle cx="10" cy="10" r="7" fill="#F43F5E"/>
+      <circle cx="24" cy="10" r="7" fill="#F97316"/>
+      <circle cx="10" cy="24" r="7" fill="#818CF8"/>
+      <circle cx="24" cy="24" r="7" fill="#38BDF8"/>
+      <circle cx="10" cy="38" r="7" fill="#34D399"/>
+    </g>
+
+    <!-- 9. VS CODE FLOATING ICON (Mid Far Left) -->
+    <g transform="translate(20, 420)">
+      <animateTransform attributeName="transform" type="translate" values="20,420; 20,395; 20,420" dur="6.4s" repeatCount="indefinite"/>
+      <path d="M28,2 L38,10 L38,30 L28,38 L0,25 L20,20 L0,15 Z" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+    </g>
+  </g>
 
   <!-- ================= LEFT COLUMN: PERSONAL INFO & SKILLS ================= -->
   <g transform="translate(70, 65)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
