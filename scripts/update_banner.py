@@ -52,8 +52,7 @@ def main():
     time_str, ampm, date_str = get_time_strings()
     weather_str = get_weather_string()
 
-    # If placeholders exist (first run), replace them directly.
-    # On subsequent runs, replace whatever values are currently baked in.
+    # Replace placeholders or previous values
     svg = re.sub(r"\{\{TIME\}\}|\d{2}:\d{2}:\d{2}", time_str, svg, count=1)
     svg = re.sub(r"\{\{AMPM\}\}|\bAM\b|\bPM\b", ampm, svg, count=1)
     svg = re.sub(
@@ -62,7 +61,12 @@ def main():
         svg,
         count=1,
     )
-    svg = svg.replace("{{WEATHER}}", weather_str)
+    
+    # Weather replacement
+    if "{{WEATHER}}" in svg:
+        svg = svg.replace("{{WEATHER}}", weather_str)
+    else:
+        svg = re.sub(r"(?:☀️|⛅|☁️|🌫️|🌦️|🌧️|⛈️|🌤️) \d+°C, [A-Za-z ]+", weather_str, svg, count=1)
 
     with open(SVG_PATH, "w", encoding="utf-8") as f:
         f.write(svg)
