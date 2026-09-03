@@ -374,11 +374,11 @@
 
         <!-- Large Digital Time -->
         <g font-family="Consolas, Monaco, monospace" text-anchor="middle">
-          <text x="147" y="112" font-size="32" font-weight="900" fill="#FFFFFF" letter-spacing="1">11:44:39 <tspan font-size="20" fill="#38BDF8">PM</tspan></text>
-          <text x="147" y="152" font-family="sans-serif" font-size="15" font-weight="700" fill="#CBD5E1">Thursday, 03 Sep 2026</text>
+          <text x="147" y="112" font-size="32" font-weight="900" fill="#FFFFFF" letter-spacing="1">02:50:34 <tspan font-size="20" fill="#38BDF8">AM</tspan></text>
+          <text x="147" y="152" font-family="sans-serif" font-size="15" font-weight="700" fill="#CBD5E1">Friday, 04 Sep 2026</text>
           
           <rect x="35" y="175" width="225" height="38" rx="19" fill="#0F172A" stroke="#34D399" stroke-width="1.5"/>
-          <text x="147" y="200" font-family="sans-serif" font-size="14" font-weight="800" fill="#34D399">🌤️ 26°C, Partly Cloudy </text>
+          <text x="147" y="200" font-family="sans-serif" font-size="14" font-weight="800" fill="#34D399">🌤️ 25°C, Cloudy </text>
         </g>
       </g>
     </g>
